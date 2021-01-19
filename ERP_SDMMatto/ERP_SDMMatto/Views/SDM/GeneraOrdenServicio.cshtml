@@ -1,0 +1,236 @@
+﻿@model ERP_SDMMatto.Models.clsOrdenServicio
+
+@{
+    ViewBag.Title = "GeneraOrdenServicio";
+    Layout = "~/Views/Shared/VwPrincipal.cshtml";
+}
+@section sidebar{
+
+    <li class="active">@ERP_SDMMatto.Properties.Resources.GeneraOrdenServicio</li>
+}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<style>
+    .ui-autocomplete {
+        position: absolute;
+        cursor: default;
+        z-index: 1500 !important;
+        max-height: 200px;
+        overflow-y: auto;
+        /* prevent horizontal scrollbar */
+        overflow-x: hidden;
+        /* add padding to account for vertical scrollbar */
+        padding-right: 20px;
+    }
+
+
+    .oculto {
+        display: none;
+    }
+
+    .ui-menu-item .ui-menu-item-wrapper.ui-state-active {
+        background: #6693bc !important;
+        font-weight: bold !important;
+        color: #ffffff !important;
+    }
+
+    .ui-menu .ui-menu-item {
+        clear: left;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: orange;
+    }
+
+        .ui-menu .ui-menu-item a {
+            display: block;
+            padding: 3px 3px 3px 3px;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: Green;
+        }
+
+            .ui-menu .ui-menu-item a:hover {
+                display: block;
+                padding: 3px 3px 3px 3px;
+                text-decoration: none;
+                color: White;
+                cursor: pointer;
+                background-color: ButtonText;
+            }
+
+    .ui-widget-content a {
+        color: #222222;
+    }
+
+</style>
+
+<div class="row justify-content-center">
+    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("Index", "SDM")'">Inicio</button>
+
+    </div>
+</div>
+
+@using (Html.BeginForm("GuardaOrdenServicio", "SDM", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.AntiForgeryToken()
+
+    <div class="row top-buffer">
+        <div class="col-md-12">
+
+            <div class="row justify-content-center">
+                <div class="col-md-4  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                    <div class="form-group ui-widget">
+                        * @Html.LabelFor(model => model.unidad, new { @class = "control-label" })
+                        <div class="input-group input-lg">
+                            @Html.TextBoxFor(model => model.unidad, new { @class = "form-control", @maxlength = "50" })
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-4  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                    <div class="form-group">
+                        <label class="control-label col-sm-6" for="CatSucursalesSelect">@ERP_SDMMatto.Properties.Resources.Concepto</label>
+                        <div class="col-sm-12">
+                            @Html.DropDownListFor(model => model.CatSelectConcpeto, Model.CatConcepto, " ", new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-4  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                    <div class="form-group">
+                        <label class="control-label col-sm-6" for="CatSucursalesSelect">@ERP_SDMMatto.Properties.Resources.TipoMantenimiento</label>
+                        <div class="col-sm-12">
+                            @Html.DropDownListFor(model => model.CatSelectTipoMantenimiento, Model.CatTipoMantenimiento, " ", new { @class = "form-control", @onchange = "fillComboTS(this)" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center">
+                <div class="col-md-4  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                    <div class="form-group">
+                        <label class="control-label col-sm-6" for="CatSucursalesSelect">@ERP_SDMMatto.Properties.Resources.Servicio</label>
+                        <div class="col-sm-12">
+                            @Html.DropDownListFor(model => model.CatSelectServicio, Model.CatServicio, new { @class = "form-control serv" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="row justify-content-center">
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    <div class="col-md-12 text-center top-buffer">
+                        <input type="submit" value="Guardar" class="btn btn-primary" />
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+}
+
+<script type="text/javascript">
+    var availableTags=[];
+    $(document).ready(function () {
+
+        var uri = '@Url.Action("BuscaUnidadOS", "SDM")';
+        $.ajax({
+            type: "POST",
+            url: uri,
+            dataType: "json",
+            success: function (data) {
+                $.each(data, function (i, item) {
+
+                    availableTags.push(item);
+                });
+
+
+
+            },
+        });
+
+
+        $("#unidad").autocomplete({
+
+            source: availableTags,
+            scroll: true,
+            minLength: 0,
+            select: function (e, ui) {
+                var valSelect = ui.item.value;
+                $(this).val(valSelect.split("-")[0]);
+
+
+            },
+            change: function (e, ui) {
+                var valSelect = ui.item.value;
+                $(this).val(valSelect.split("-")[0]);
+            }
+
+
+        }).focus(function () {
+
+            $(this).autocomplete('search', "") //auto trigger the search with whatever's in the box
+        });
+
+    });
+
+    function fillComboTS(tMantto_) {
+        var uri = '@Url.Action("FillTipoServicioOS", "SDM")';
+        var selectElement = tMantto_
+        $.ajax(
+            {
+
+                url: uri,
+                dataType: 'json',
+                data: { tMantenimiento: tMantto_.value},
+                type: 'GET',
+                success: function (data) {
+
+                    $('.serv option').each(function () {
+                        $(this).remove();
+
+                    });
+                    $('#CatSelectServicio').append($('<option/>', {
+                        value: "",
+                        text: ""
+                    }));
+                    $.each(data, function (index, val) {
+
+                        $('#CatSelectServicio').append($('<option/>', {
+                            value: val.Value,
+                            text: val.Text
+                        }));
+                    });
+
+                },
+
+                    //return Json(new { success = true });
+                    //document.getElementById("btnaceptarImplemenComer").click();
+
+                })
+
+    }
+</script>

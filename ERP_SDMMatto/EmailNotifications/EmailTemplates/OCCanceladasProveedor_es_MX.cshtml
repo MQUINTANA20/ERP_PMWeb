@@ -1,0 +1,64 @@
+﻿@model EmailNotifications.ModelTemplates.SuccessValidationPurchaseOrderModel
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Estimado(a): @Model.NombreCompletoUsuario
+    </p>
+    <p>
+        El archivo @Model.ArchivoProcesado fue procesado.
+    </p>
+	<br />
+    <p>
+        @if (Model.VariasOC)
+        {
+            @:Las siguientes Órdenes de compra se cancelaron: @Model.NumeroOrdenCompra.
+        }
+        else
+        {
+            @:La siguiente Orden de compra se canceló: @Model.NumeroOrdenCompra.
+        }
+    </p>
+	<br />
+	<p>
+        @if (@Model.lPartidasCanceladas.Count() <= 0)
+        {
+            @:Advertencia: No hay Partidas Canceladas  @*Aqui no deberia de entrar nunca ... *@
+        }
+    </p>		
+    <p>
+    @if (@Model.lErrOrdenCompra != null && @Model.lErrOrdenCompra.Count > 0)
+    {
+	    string sTxtMostrarOC = "Orden de Compra: ";
+        string sNumOC = "";
+        sNumOC = Model.lErrOrdenCompra.ElementAt(0).OC;
+		@:Se encontraron los siguientes errores:
+        @:<br />
+        <ul>
+            @sTxtMostrarOC @sNumOC
+
+            @foreach (EmailNotifications.ModelTemplates.ErrOrdenCompra item in Model.lErrOrdenCompra)
+            {
+                if (item.OC != sNumOC)
+                {
+                    @:</ul><br />
+                    @:<ul>
+                    sNumOC = item.OC;
+                    @sTxtMostrarOC @sNumOC
+                }
+                <li>
+                    @item.Error
+                </li>
+            }
+        </ul>
+    }	
+        <br />
+        @Model.MensajeGeneral
+    </p>
+</body>
+</html>

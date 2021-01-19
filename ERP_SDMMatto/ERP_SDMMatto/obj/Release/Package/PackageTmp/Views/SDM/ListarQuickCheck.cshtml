@@ -1,0 +1,1006 @@
+﻿@model IEnumerable<ERP_SDMMatto.Models.clsQuickCheck>
+
+
+@{
+    ViewBag.Title = "ListarQuickCheck";
+    Layout = "~/Views/Shared/VwPrincipal.cshtml";
+}
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap-switch-button@1.1.0/css/bootstrap-switch-button.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap-switch-button@1.1.0/dist/bootstrap-switch-button.min.js"></script>
+<script src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
+<style>
+    .oculto {
+        display: none;
+    }
+
+    .noresize {
+        resize: none;
+    }
+    .error {
+        display: none;
+        margin-left: 10px;
+    }
+
+    .error_show {
+        color: red;
+        margin-left: 10px;
+    }
+
+    input.invalid, textarea.invalid {
+        border: 2px solid red;
+    }
+
+    input.valid, textarea.valid {
+        border: 2px solid;
+    }
+</style>
+
+
+
+@section sidebar{
+
+    <li class="active">@ERP_SDMMatto.Properties.Resources.CapturaItems</li>
+}
+
+@{
+    int n = 0;
+    int e = 0;
+
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <a href=@Url.Action("OpcionesUnidad", "SDM",  new { idUnidad = Model.First().IDOrden,  KM =  Model.First().KM}) class="btn btn-default"><h3><span class="badge badge-secondary">  Regresar </span></h3></a>
+    </div>
+</div>
+<div class="row top-buffer">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-12 text-center top-buffer">
+                    <Lable>Unidad:</Lable>
+                    @Html.DisplayFor(m => m.First().IDUnidad)
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<div class="row">
+    <div class="col-md-12 mx-0">
+
+        <!-- progressbar -->
+        <div style="display: none">
+            <ul id="progressbar">
+                @for (int i = 0; i < Model.Count(); i++)
+                {
+                    var qc = Model.ElementAt(i).IDInterno;
+
+                    <li class="active" id=@qc><strong>ID: @qc</strong></li>
+
+                }
+
+
+            </ul> <!-- fieldsets -->
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="row  top-buffer">
+    <div class="col-md-12">
+        <form id="msform" onsubmit="return false">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @foreach (var iQC in Model)
+            {
+                var lstEval = iQC.Evaluacion;
+
+                n++;
+                var progress = n;
+
+
+                <fieldset>
+                    <div class="row justify-content-center">
+                        <div class="form-group">
+                            <div class="col-md-12">
+
+
+                                <h2><span class="badge badge-pill  badge-info">Item  @progress  de  @Model.Count()</span></h2>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-12 text-left">Descripcion</label>
+                                <div class="input-group">
+                                    @Html.TextAreaFor(i => iQC.ItemARevisar, new { @class = "form-control Implemen", @disabled = "disabled" })
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    @{
+                        var idOculto = "divOculto" + iQC.IDInterno;
+                        var test = "Eval" + @iQC.IDInterno;
+                        var nameChk = "VerdeRojo" + iQC.IDInterno;
+                        var nReq = "requerido" + iQC.IDInterno;
+                    }
+                    @if (iQC.Comentarios == string.Empty || iQC.Comentarios == "")
+                    {
+                        <div class="row justify-content-center">
+                            <div class="col-md-4  col-md-offset-4 col-xs-6 col-xs-offset-3">
+
+                                <div class="form-group">
+                                    <div class="radio">
+
+                                        <input type="checkbox" id="@nameChk" data-toggle="switchbutton" checked data-onstyle="success" data-offstyle="danger" data-onlabel=" " data-offlabel=" " onchange="prov('@iQC.IDInterno')">
+                                        @*<label>
+                                                @Html.RadioButtonFor(i => iQC.VerdeRojo, "Verde", new { @checked = true, @id = "vd" + iQC.IDInterno, @onclick = "prov('" + iQC.IDInterno + "');", @Name = "VerdeRojo" + iQC.IDInterno }) Verde
+                                            </label>
+                                            <label>
+                                                @Html.RadioButtonFor(i => iQC.VerdeRojo, "Rojo", new { @id = "rj", @onclick = "prov('" + iQC.IDInterno + "');", @Name = "VerdeRojo" + iQC.IDInterno }) Rojo
+                                            </label>*@
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="oculto" id=@idOculto>
+
+                            <div class="row justify-content-center">
+                                <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+
+                                    <div class="form-group">
+                                        <label class="control-label  col-sm-12 text-left">* Comentarios</label>
+                                        <div class="input-group">
+                                            @Html.TextAreaFor(i => iQC.Comentarios, new { @class = "form-control Implemen", id = "c" + iQC.IDInterno })
+
+                                        </div>
+                                        <span class="error" id="@nReq">El campo COMENTARIO es requerido</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row justify-content-center">
+                                <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+
+                                    <div class="form-group">
+                                        <label class="control-label  col-sm-12 text-left">Refacciones Requeridas</label>
+                                        <div class="input-group">
+                                            @Html.TextAreaFor(i => iQC.Refacciones, new { @class = "form-control Implemen", id = "rr" + iQC.IDInterno, @placeholder = "(Opcional)" })
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    }
+                    else
+                    {
+                       
+                        <div class="row justify-content-center">
+                            <div class="col-md-4  col-md-offset-4 col-xs-6 col-xs-offset-3">
+
+                                <div class="form-group">
+                                    <div class="radio">
+
+
+                                        <input type="checkbox" id="@nameChk" data-toggle="switchbutton" data-onstyle="success" data-offstyle="danger" data-onlabel=" " data-offlabel=" "  onchange="prov('@iQC.IDInterno')">
+
+                                        @*<label>
+                                                @Html.RadioButtonFor(i => iQC.VerdeRojo, "Verde", new { @id = "vd" + iQC.IDInterno, @onclick = "prov('" + iQC.IDInterno + "');", @Name = "VerdeRojo" + iQC.IDInterno }) Verde
+                                            </label>
+                                            <label>
+                                                @Html.RadioButtonFor(i => iQC.VerdeRojo, "Rojo", new { @checked = true, @id = "rj", @onclick = "prov('" + iQC.IDInterno + "');", @Name = "VerdeRojo" + iQC.IDInterno }) Rojo
+                                            </label>*@
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id=@idOculto>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+
+                                    <div class="form-group">
+                                        <label class="control-label  col-sm-12 text-left">Comentarios</label>
+                                        <div class="input-group">
+                                            @Html.TextAreaFor(i => iQC.Comentarios, new { @class = "form-control Implemen", id = "c" + iQC.IDInterno })
+                                        </div>
+                                        <span class="error" id="@nReq">El campo COMENTARIO es requerido</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row justify-content-center">
+                                <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+
+                                    <div class="form-group">
+                                        <label class="control-label  col-sm-12 text-left">Refacciones Requeridas</label>
+                                        <div class="input-group">
+                                            @Html.TextAreaFor(i => iQC.Refacciones, new { @class = "form-control Implemen", id = "rr" + iQC.IDInterno, @placeholder = "(Opcional)" })
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    }
+
+
+
+                    @if (n > 1)
+                    {
+                        <input type="button" name="previous" class="previous action-button-previous" value="Anterior" />
+                    }
+
+                    @if (n == Model.Count())
+                    {
+                        <input type="button" name="finish" class="next action-button" value="Finalizar" />
+                    }
+                    else if (iQC.Eval == true && iQC.Evaluacion.Count() > 0)
+                    {
+                        var nTotal = "TotalEval" + iQC.IDInterno;
+                        @Html.Hidden(nTotal, lstEval.Count());
+                        var nModal = "ModalEval" + @iQC.IDInterno;
+                        <input type="button" name="next" class="action-button" value="Siguiente"  onClick="return SaveItemQC('@iQC.IDOrden','@iQC.IDInterno', '@iQC.Eval.ToString()')" />
+                        <div class="modal fade" id="@nModal" tabindex="-1">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Evaluacion: @iQC.ItemARevisar</h5>
+                                        <!--button-- type="button" class="close" data-dismiss="modal" onclick="return cerrarEval();">&times;</!--button-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="alert_placeholder2"></div>
+                                        <ul id="progressbar">
+                                            @for (int i = 0; i < lstEval.Count(); i++)
+                                            {
+
+                                                var Eval = lstEval.ElementAt(i).Evaluacion;
+
+                                                <li class="active oculto" id=@i><strong>ID: @Eval </strong></li>
+
+
+                                            }
+                                        </ul> <!-- fieldsets -->
+
+                                        @foreach (var iEval in lstEval)
+                                        {
+                                            e++;
+
+                                            <fieldset>
+                                                <div class="row justify-content-center">
+                                                    <div class="form-group">
+                                                        <div class="col-md-12">
+
+
+                                                            <h2><span class="badge badge-pill  badge-info">Evaluacion  @e  de  @lstEval.Count()</span></h2>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                                                        <div class="form-group">
+                                                            <label class="control-label  col-sm-12 text-left">Concepto Evaluación</label>
+                                                            <div class="input-group">
+                                                                @Html.DisplayFor(i => iEval.ConceptoEvaluacion, new { @class = "form-control Implemen", })
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                                                        <div class="form-group">
+                                                            <label class="control-label  col-sm-12 text-left">Evaluación</label>
+                                                            <div class="input-group">
+                                                                @Html.DisplayFor(i => iEval.Evaluacion, new { @class = "form-control Implemen", })
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-sm-12 text-left">Unidad</label>
+                                                            <div class="input-group">
+                                                                @Html.DisplayFor(i => iEval.Unidad, new { @class = "form-control Implemen", })
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                                                        <div class="form-group">
+                                                            <label class="control-label  col-sm-12 text-left">Valor</label>
+                                                            <div class="input-group">
+                                                                @Html.TextBoxFor(i => iEval.Valor, new { @class = "form-control Implemen", id = "v" + iEval.Id + iEval.IdInterno, @type = "number", @min = "0" })
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                @if (e > 1)
+                                                {
+                                                    <input type="button" name="previous2" class="previous2 action-button-previous" value="Anterior" />
+                                                }
+
+                                                @if (e == lstEval.Count())
+                                                {
+                                                    <input type="button" name="finish2" class="next2 action-button" value="Finalizar" onClick="return SaveItemE('@iEval.Id', '@iEval.IdInterno', '@iQC.IDOrden', '@iEval.Evaluacion', '@iEval.ConceptoEvaluacion')" />
+                                                }
+                                                else
+                                                {
+                                                    <input type="button" name="next2" class="next2 action-button" value="Siguiente" onClick="return SaveItemE('@iEval.Id', '@iEval.IdInterno','@iQC.IDOrden', '@iEval.Evaluacion', '@iEval.ConceptoEvaluacion')" />
+                                                }
+
+
+                                            </fieldset>
+
+                                        }
+                                        @{e = 0;
+                                            var nAlert = "alert_placeholder" + iQC.IDInterno;
+                                            var nClose = "mCerrar" + iQC.IDInterno;
+                                        }
+                                        <fieldset>
+                                            <div class="form-card">
+                                                <h2 class="fs-title text-center">Fin Evaluacion</h2> <br><br>
+                                                <div class="row justify-content-center">
+
+
+
+                                                </div> <br><br>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-7 text-center">
+                                                        <div id="@nAlert">  </div>
+                                                        <h5>Ha finalizado el registro de la Evaluacion.</h5>
+
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="cerrarEval(@iQC.IDInterno)">Cerrar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+
+
+
+                                    </div>
+
+                                    <div class="modal-footer" id="@nClose">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    }
+                    else
+                    {
+                        <input type="button" name="next" class="next action-button" value="Siguiente" onClick="return SaveItemQC('@iQC.IDOrden','@iQC.IDInterno', '@iQC.Eval.ToString()')" />
+                    }
+
+
+                </fieldset>
+
+
+
+            }
+
+
+            <fieldset>
+                <div class="form-card">
+                    <h2 class="fs-title text-center">Fin Registro</h2> <br><br>
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <input type="button" value="@ERP_SDMMatto.Properties.Resources.MenuUnidad" class="btn btn-primary" onclick="location.href='@Url.Action("OpcionesUnidad", "SDM", new { idUnidad = Model.First().IDOrden,  KM =  Model.First().KM} )';return false;" />
+                        </div>
+                    </div> <br><br>
+                    <div class="row justify-content-center">
+                        <div class="col-7 text-center">
+                            <h5>Ha finalizado el registro de la operacion.</h5>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+
+
+<!--Modal2-->
+<script type="text/javascript">
+
+    var idModal = 0;
+    var isRojo = false;
+    var isEval = false;
+    var nextItemn, currentItem, currentItem2, currentStep, currentEval;
+    var totalE = 0;
+    var iEval = 0;
+    var blockStep = false;
+    var errorsEval = 0;
+    var nEval = 0;
+
+    //$('input:radio[name=VerdeRojo][id="vd"]').attr("checked", true);
+
+    function disableF5(e) { if ((e.which || e.keyCode) == 116 || (e.which || e.keyCode) == 82) e.preventDefault(); };
+
+    window.onbeforeunload = function (e) {
+        e.preventDefault();
+        var msg = "Esta a punto de abandonar la pagina. Los cambios aplicaran hasta este punto ¿Esta seguro?";
+        return msg;
+        
+
+    }
+
+    $(document).ready(function () {
+
+        var current_fs, next_fs, previous_fs; //fieldsets
+        var opacity;
+        $(document).on("keydown", disableF5);
+        
+     
+
+        //window.addEventListener('beforeunload', function (e) {
+        //    e.preventDefault();
+        //    e.returnValue = '';
+        //});
+
+      
+  
+        $(".next").click(function () {
+
+            current_fs = $(this).parent();
+            next_fs = $(this).parent().next();
+            currentItem = next_fs;
+            currentStep = current_fs;
+            if (blockStep == false) {
+                //Add Class Active
+                $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                //show the next fieldset
+                next_fs.show();
+                //hide the current fieldset with style
+                current_fs.animate({ opacity: 0 }, {
+                    step: function (now) {
+                        // for making fielset appear animation
+                        opacity = 1 - now;
+
+                        current_fs.css({
+                            'display': 'none',
+                            'position': 'relative'
+                        });
+                        next_fs.css({ 'opacity': opacity });
+                    },
+                    duration: 600
+                });
+            }
+           
+        });
+
+        $(".next2").click(function () {
+
+            current_fs = $(this).parent();
+            next_fs = $(this).parent().next();
+            currentItem2 = next_fs;
+            iEval++;
+
+            if (currentEval != null && currentEval != undefined) {
+                currentItem2 = currentEval;
+                let currentEval = undefined;
+            }
+        
+            //Add Class Active
+            if (isEval != false) {
+            $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+               
+          
+               
+            //show the next fieldset
+            next_fs.show();
+            //hide the current fieldset with style
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now) {
+                    // for making fielset appear animation
+                    opacity = 1 - now;
+
+                    current_fs.css({
+                        'display': 'none',
+                        'position': 'relative'
+                    });
+                    next_fs.css({ 'opacity': opacity });
+                },
+
+            });
+            }
+
+        });
+        $(".previous").click(function () {
+
+            current_fs = $(this).parent();
+            previous_fs = $(this).parent().prev();
+       
+            currentStep = current_fs.prev().prev();
+            currentItem = previous_fs.prev();
+       
+            //Remove class active
+            $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+            //show the previous fieldset
+            previous_fs.show();
+
+            //hide the current fieldset with style
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now) {
+                    // for making fielset appear animation
+                    opacity = 1 - now;
+
+                    current_fs.css({
+                        'display': 'none',
+                        'position': 'relative'
+                    });
+                    previous_fs.css({ 'opacity': opacity });
+                },
+                duration: 600
+            });
+        });
+        $(".previous2").click(function () {
+
+            current_fs = $(this).parent();
+            previous_fs = $(this).parent().prev();
+            currentItem2 = next_fs;
+          
+            //Remove class active
+            $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+            //show the previous fieldset
+            previous_fs.show();
+
+            //hide the current fieldset with style
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now) {
+                    // for making fielset appear animation
+                    opacity = 1 - now;
+
+                    current_fs.css({
+                        'display': 'none',
+                        'position': 'relative'
+                    });
+                    previous_fs.css({ 'opacity': opacity });
+                },
+                duration: 600
+            });
+        });
+
+
+        $(".submit").click(function () {
+
+            return false;
+        })
+
+
+    });
+    bootstrap_alert = function () {
+    }
+    bootstrap_alert.warning = function (message) {
+        $("#alert_placeholder").html('<div class="alert alert-warning"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><spanaria-hidden="true">&times;</span></button>' + message + '</div>')
+    }
+    bootstrap_alert.success = function (message) {
+        $('#alert_placeholder').html('<div class="alert alert-success fade in alert-dismissable">' + message + '</div>')
+    }
+
+    bootstrap_alert2 = function () {
+    }
+    bootstrap_alert2.warning = function (message) {
+
+        $('#alert_placeholder2').html('<div class="alert alert-warning"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><spanaria-hidden="true">&times;</span></button>' + message + '</div>')
+    }
+    bootstrap_alert2.success = function (message) {
+        $('#alert_placeholder2').html('<div class="alert alert-success fade in alert-dismissable">' + message + '</div>')
+    }
+
+    function showModal(idModal) {
+
+        var m = "#ModalEval" + idModal;
+        alert(m);
+        $(m).modal('show');
+    }
+
+    function SaveItemE(idEval_, idEvalI_, idOrden_, evaluacion_, Concepto_) {
+        var uri = '@Url.Action("GuardaEval", "SDM")';
+        var nVal = '#v' + idEval_ + idEvalI_;
+        var valorE = $(nVal).val();
+       
+            $.ajax(
+                {
+
+                    url: uri,
+                    dataType: 'json',
+                    data: { IDInterno: idEvalI_, IdOrden: idOrden_, Valor: valorE, Evaluacion: evaluacion_, Concepto: Concepto_ },
+                    type: 'POST',
+                    success: function (data) {
+                      
+                        if (data.idMsg == 'error') {
+                            bootstrap_alert2.warning(data.Msg);
+
+                            isEval = false;
+                            errorsEval++;
+
+                        } else if (data.idMsg == 'warning') {
+
+                           isEval = false;
+                            errorsEval++;
+                        }
+                        else
+                        {
+                            isEval = true;
+                            nEval++;
+                       
+                      
+                            
+                        }
+                        if (data.idMsg == 'error') {
+
+
+                   
+                            var current_ = currentItem2;
+                           
+                            var next_ = current_.prev();
+                            
+                            //Add Class Active
+                            $("#progressbar li").eq($("fieldset").index(next_)).addClass("active");
+
+                            //show the next fieldset
+                            next_.show();
+                            //hide the current fieldset with style
+                            current_.animate({ opacity: 0 }, {
+                                step: function (now) {
+                                    // for making fielset appear animation
+                                    opacity = 1 - now;
+
+                                    current_.css({
+                                        'display': 'none',
+                                        'position': 'relative'
+                                    });
+                                    next_.css({ 'opacity': opacity });
+                                },
+
+                            });
+                        } else {
+                            var current_ = currentItem2.prev();
+                       
+                            var next_ = current_.next();
+
+
+                            //Add Class Active
+                            $("#progressbar li").eq($("fieldset").index(next_)).addClass("active");
+
+                            //show the next fieldset
+                            next_.show();
+                            //hide the current fieldset with style
+                            current_.animate({ opacity: 0 }, {
+                                step: function (now) {
+                                    // for making fielset appear animation
+                                    opacity = 1 - now;
+
+                                    current_.css({
+                                        'display': 'none',
+                                        'position': 'relative'
+                                    });
+                                    next_.css({ 'opacity': opacity });
+                                },
+
+                            });
+
+                            var nAlert = "#alert_placeholder" + idEvalI_;
+                            var nClose = "#mCerrar" + idEvalI_
+
+                            if (nEval == 0 && iEval == totalE) {
+                                $(nAlert).removeClass();
+                                $(nAlert).html("La evaluación no se ha guardado. Debe capturar al menos un valor").addClass("bg-warning text-white");
+                                $(nClose).addClass("oculto");
+
+                           // bootstrap_alert2.warning("La evaluación no se ha guardado correctamente, Falta un valor. Intente Nuevamente");
+                            } else if (nEval > 0 && iEval == totalE) {
+                                $(nAlert).removeClass();
+                                $(nAlert).html("La evaluación ha sido guardada exitosamente").addClass("bg-success text-white");
+                                $(nClose).addClass("oculto");
+                            //bootstrap_alert2.success("La evaluación ha sido guardada exitosamente");
+                        }
+                       }                  
+
+                    
+                    },
+
+                });
+
+
+
+
+    }
+    
+    function SaveItemQC(idOrden_, idInterno_, eval_) {
+
+        var uri = '@Url.Action("GuardaItemQC", "SDM")';
+        var coment = $('#c' + idInterno_).val();
+        var trimComent = $.trim(coment);
+        var refReq = $('#rr' + idInterno_).val();
+        var trimRef = $.trim(refReq);
+        var nalert = $('#requerido' + idInterno_);
+        //var campo = $('input:radio[name=' + nchck + ']:checked').val();
+        
+        var chck = "#VerdeRojo" + idInterno_;
+        //var campo = $('input:radio[name=' + nchck + ']:checked').val();
+
+        totalE = parseInt($("#TotalEval" + idInterno_).val());
+        if ($(chck).is(':checked')) {
+            isRojo = false;
+        } else {
+            isRojo = true;
+        }
+        if (isRojo == true && trimComent == '') {
+            var input = $('#c' + idInterno_);
+          
+            var is_name = input.val();
+            if (is_name) {
+                input.removeClass("invalid").addClass("valid");
+                $(nalert).removeClass('error_show').addClass('error');
+            }
+            else {
+                input.removeClass("valid").addClass("invalid");
+                $(nalert).removeClass('error').addClass('error_show');
+
+            }
+            
+            $('#c' + idInterno_).val("");
+            blockStep = true;
+           
+            return false;
+        }
+        $(nalert).removeClass('error_show').addClass('error');
+            blockStep = false;
+        
+            $.ajax(
+                {
+
+                    url: uri,
+                    dataType: 'json',
+                    data: { IdOrden: idOrden_, IDInterno: idInterno_, comentarios: coment, refacReq: refReq },
+                    type: 'POST',
+                    success: function (data) {
+
+                        if (data.idMsg == 'error') {
+                            bootstrap_alert.warning(data.Msg);
+                        } else {
+                            idItem = idInterno_;
+                        
+                            if (eval_ == 'True') {
+                                var m = "#ModalEval" + idItem;
+                                $(m).modal('show');
+
+
+
+                            }
+                        }
+
+                        //return Json(new { success = true });
+                        //document.getElementById("btnaceptarImplemenComer").click();
+
+                    },
+
+                });
+
+
+    }
+
+
+    function cerrarEval(idItem_) {
+        var coment = $('#c' + idItem_).val();
+        var nchck = "#VerdeRojo" + idItem_;
+        var isChck = $(nchck).is(':checked');
+
+
+
+       
+        if (nEval >= 1 && (isChck == true || (isChck == false && coment != "")) ) {
+
+
+            var currentItem = currentStep.next();
+            var nextItem = currentItem.next();
+            current_fs = currentItem2;
+            next_fs = current_fs.prev();
+
+           
+                $("#progressbar li").eq($("fieldset").index(nextItem)).addClass("active");
+
+                nextItem.show();
+                //hide the current fieldset with style
+                currentItem.animate({ opacity: 0 }, {
+                    step: function (now) {
+                        // for making fielset appear animation
+                        opacity = 1 - now;
+
+                        currentItem.css({
+                            'display': 'none',
+                            'position': 'relative'
+                        });
+                        nextItem.css({ 'opacity': opacity });
+                    },
+                    duration: 600
+                });
+       
+                for (var i = 1; i < totalE; i++) {
+                    next_fs = next_fs.prev();
+                    currentEval = next_fs.prev();
+                }
+
+                $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                next_fs.show();
+                //hide the current fieldset with style
+                current_fs.animate({ opacity: 0 }, {
+                    step: function (now) {
+                        // for making fielset appear animation
+                        opacity = 1 - now;
+
+                        current_fs.css({
+                            'display': 'none',
+                            'position': 'relative'
+                        });
+                        next_fs.css({ 'opacity': opacity });
+                    },
+                    duration: 600
+                });
+
+
+            nEval = 0;
+            errorsEval = 0;
+            iEval = 0;
+            $("#mCerrar" + idItem_).removeClass("oculto");
+            
+        }
+        //else if (nEval != totalE) {
+
+        //    current_fs = currentItem2;
+        //    current_fs2 = currentStep.next();
+        //    next_fs = current_fs.prev();
+        //    next_fs2 = current_fs2.next();
+
+
+        //    for (var i = 1; i < nEval; i++) {
+        //        next_fs = next_fs.prev();
+        //    }
+
+        //    $("#progressbar li").eq($("fieldset").index(next_fs2)).addClass("active");
+
+        //    next_fs2.show();
+        //    //hide the current fieldset with style
+        //    current_fs2.animate({ opacity: 0 }, {
+        //        step: function (now) {
+        //            // for making fielset appear animation
+        //            opacity = 1 - now;
+
+        //            current_fs2.css({
+        //                'display': 'none',
+        //                'position': 'relative'
+        //            });
+        //            next_fs2.css({ 'opacity': opacity });
+        //        },
+        //        duration: 600
+        //    });
+
+        //    //Add Class Active
+        //    $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+
+        //    //show the next fieldset
+        //    next_fs.show();
+        //    //hide the current fieldset with style
+        //    current_fs.animate({ opacity: 0 }, {
+        //        step: function (now) {
+        //            // for making fielset appear animation
+        //            opacity = 1 - now;
+
+        //            current_fs.css({
+        //                'display': 'none',
+        //                'position': 'relative'
+        //            });
+        //            next_fs.css({ 'opacity': opacity });
+        //        },
+        //        duration: 600
+        //    });
+        //    //show the next fieldset
+
+
+            
+        //} 
+         else {
+            //bootstrap_alert2.warning("No ha realizado ninguna evaluacion. Intente nuevamente.");
+            //if (isChck == false && coment == "") {
+            //    bootstrap_alert.warning("Falta captura campo COMENTARIOS");
+            //}
+          
+            current_fs = currentItem2;
+            next_fs = current_fs.prev();
+            for (var i = 1; i < totalE; i++) {
+                next_fs = next_fs.prev();
+                currentEval = next_fs.prev();
+            }
+
+
+
+            //Add Class Active
+            $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+            //show the next fieldset
+            next_fs.show();
+            //hide the current fieldset with style
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now) {
+                    // for making fielset appear animation
+                    opacity = 1 - now;
+
+                    current_fs.css({
+                        'display': 'none',
+                        'position': 'relative'
+                    });
+                    next_fs.css({ 'opacity': opacity });
+                },
+
+            });
+            nEval = 0;
+            errorsEval = 0;
+            iEval = 0;
+            $("#mCerrar" + idItem_).removeClass("oculto");
+        } 
+    }
+
+
+
+    function prov(idItem) {
+
+        var nchck = "#VerdeRojo" + idItem;
+        var dvOculto = "#divOculto" + idItem;
+
+        if ($(nchck).is(':checked')) {
+            $('#c' + idItem).val("");
+            $('#rr' + idItem).val("");
+            $(dvOculto).addClass("oculto")
+            isRojo = false;
+        } else {
+            $(dvOculto).removeClass("oculto");
+            isRojo = true;
+        }
+
+    }
+
+
+</script>

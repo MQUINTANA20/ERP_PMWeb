@@ -1,0 +1,290 @@
+﻿@model ERP_SDMMatto.Models.clsUnidad
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/VwPrincipal.cshtml";
+}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<style>
+    .ui-autocomplete {
+        position: absolute;
+        cursor: default;
+        z-index: 1500 !important;
+        max-height: 200px;
+        overflow-y: auto;
+        /* prevent horizontal scrollbar */
+        overflow-x: hidden;
+        /* add padding to account for vertical scrollbar */
+        padding-right: 20px;
+    }
+
+
+    .oculto {
+        display: none;
+    }
+
+    .ui-menu-item .ui-menu-item-wrapper.ui-state-active {
+        background: #6693bc !important;
+        font-weight: bold !important;
+        color: #ffffff !important;
+    }
+
+    .ui-menu .ui-menu-item {
+        clear: left;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: orange;
+    }
+
+        .ui-menu .ui-menu-item a {
+            display: block;
+            padding: 3px 3px 3px 3px;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: Green;
+        }
+
+            .ui-menu .ui-menu-item a:hover {
+                display: block;
+                padding: 3px 3px 3px 3px;
+                text-decoration: none;
+                color: White;
+                cursor: pointer;
+                background-color: ButtonText;
+            }
+
+    .ui-widget-content a {
+        color: #222222;
+
+
+    }
+
+    .error {
+        display: none;
+        margin-left: 10px;
+    }
+
+    .error_show {
+        color: red;
+        margin-left: 10px;
+    }
+
+    input.invalid, textarea.invalid {
+        border: 2px solid red;
+    }
+
+    input.valid, textarea.valid {
+        border: 2px solid;
+    }
+</style>
+
+
+@section sidebar{
+
+    <li class="active">@ERP_SDMMatto.Properties.Resources.BusquedaUnidad</li>
+}
+
+<div id="alert_placeholder"></div>
+@using (Html.BeginForm("OpcionesUnidad", "SDM", FormMethod.Post, new {@id="frmIndex", enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.idUnidad);
+    <div class="row top-buffer">
+        <div class="col-md-12">
+
+            <div class="row justify-content-center">
+                <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                    <div class="form-group ui-widget">
+                        * @Html.LabelFor(model => model.Serie, new { @class = "control-label" })
+                        <div class="input-group">
+                           @Html.TextBoxFor(model => model.Serie, new { @class = "form-control", @maxlength = "50" })
+                            <span class="input-group-btn" id="inputSerie" onclick="clearThis(this)">
+                                <span class="glyphicon glyphicon-remove"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="oculto" id="dvKM">
+                <div class="row justify-content-center">
+                    <div class="col-md-6  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                        <div class="form-group ui-widget">
+                            * @Html.LabelFor(model => model.KM, new { @class = "control-label" })
+                            <div class="input-group">
+
+                                @Html.TextBoxFor(model => model.KM, new { @class = "form-control", @maxlength = "50", autocomplete = "off", @type = "number", @min = "" })
+                                <span class="input-group-btn" id="inputKM" onclick="clearThis(this)">
+                                    <span class="glyphicon glyphicon-remove"></span>
+                                </span>
+                            </div>
+                            @Html.ValidationMessageFor(model => model.KM, "", new { @class = "text-danger" })
+                        <span class="error">El Kilometraje Capturado es Menor al Ultimo capturado en un servicio</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row justify-content-center">
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group">
+                        <div class="col-md-12 text-center top-buffer">
+                            <input type="button" onclick="valSubmit()"  value="Continuar" class="btn btn-primary" />
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+}
+
+<script type="text/javascript">
+
+    var cache = [];
+    var availableTags = [];
+    var KMSelect = 0;
+
+    bootstrap_alert = function () {
+    }
+    bootstrap_alert.danger = function (message) {
+        $("#alert_placeholder").html('<div class="alert alert-danger"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><spanaria-hidden="true">&times;</span></button>' + message + '</div>')
+    }
+    bootstrap_alert.success = function (message) {
+        $('#alert_placeholder').html('<div class="alert alert-success fade in alert-dismissable">' + message + '</div>')
+    }
+    $(document).ready(function () {
+
+        var uri = '@Url.Action("BuscaUnidad", "SDM")';
+        $.ajax({
+            type: "POST",
+            url: uri,
+            dataType: "json",
+            success: function (data) {
+                $.each(data, function (i, item) {
+
+                    availableTags.push(item);
+                });
+
+
+
+            },
+        });
+
+
+        $("#Serie").autocomplete({
+
+            source: availableTags,
+            scroll: true,
+            minLength: 0,
+            select: function (e, ui) {
+                var valSelect = ui.item.value;
+
+                var nKM = valSelect.split("-")[5].split(":")[1];
+                var id = valSelect.split("-")[0].toString().trim();
+                $("#dvKM").removeClass("oculto");
+                $(this).val(valSelect.split("-")[4].split(":")[1]);
+                $("#idUnidad").val(id);
+                $("#KM").val(nKM);
+                KMSelect = $("#KM").val();
+
+            },
+            change: function (e, ui) {
+                var valSelect = ui.item.value;
+                $(this).val(valSelect.split("-")[4].split(":")[1]);
+            }
+
+
+        }).focus(function () {
+
+            $(this).autocomplete('search', "") //auto trigger the search with whatever's in the box
+        });
+
+    });
+
+    function clearThis(target) {
+
+        if (target.id == "inputSerie") {
+            $("#Serie").val("");
+        } else {
+            $("#KM").val(KMSelect);
+        }
+    }
+
+            function valSubmit() {
+                var uri = '@Url.Action("ValidaKM", "SDM")';
+                var idUnidad_ = $("#idUnidad").val();
+                var KM_ = $("#KM").val();
+                var isValid = true;
+       
+                $(".error_show").removeClass('error_show').addClass('error');
+
+
+
+
+                if (KM_ != "") {
+
+                    $.ajax({
+                        type: "POST",
+                        url: uri,
+                        data: { IdUnidad: idUnidad_, KM: KM_ },
+                        type: 'POST',
+                        dataType: "json",
+                        success: function (data) {
+                           
+                            if (data.idMsg == 'error') {
+                                bootstrap_alert.danger(data.Msg);
+                                return false;
+
+
+
+                            } else if (data.idMsg == 'warning') {
+                                var input = $('#KM');
+
+                                input.removeClass("valid").addClass("invalid");
+                                $(".error").removeClass('error').addClass('error_show');
+                                $(".error_show").html("El Kilometraje Capturado es Menor al Ultimo capturado en un servicio");
+                                return false;
+
+
+
+                            }
+                            else {
+                                $('#frmIndex').submit();
+                            }
+
+
+
+                        },
+                    });
+
+
+
+
+                } else {
+                    var input = $('#KM');
+
+                    input.removeClass("valid").addClass("invalid");
+                    $(".error").removeClass('error').addClass('error_show');
+                    $(".error_show").html("el campo KM es requerido");
+                        
+                    return false;
+
+                }
+            };
+
+</script>
+

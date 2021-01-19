@@ -1,0 +1,26 @@
+﻿@using ERP_SDMMatto.Models
+@{
+ 
+   var alerts = TempData.ContainsKey(Alert.TempDataKey)
+        ? (List<Alert>)TempData[Alert.TempDataKey]
+        : new List<Alert>();
+
+    if (alerts.Any())
+    {
+
+    }
+
+    foreach (var alert in alerts)
+    {
+        var dismissableClass = alert.Dismissable ? "fade in alert-dismissable" : null;
+        <div class="alert alert-@alert.AlertStyle @dismissableClass">
+            @if (alert.Dismissable)
+            {
+                <button type="button" class="close" data-dismiss="alert" aria-label="close" title="close">&times;</button>
+            }
+            @Html.Raw(alert.Message)
+        </div>
+    }
+}
+
+

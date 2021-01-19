@@ -1,0 +1,1480 @@
+/*fuentes*/
+
+
+/* BEGIN Light */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/Light/OpenSans-Light.eot?v=1.1.0");
+    src: url("../fonts/Light/OpenSans-Light.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/Light/OpenSans-Light.woff2?v=1.1.0") format("woff2"), url("../fonts/Light/OpenSans-Light.woff?v=1.1.0") format("woff"), url("../fonts/Light/OpenSans-Light.ttf?v=1.1.0") format("truetype"), url(".../fonts/Light/OpenSans-Light.svg?v=1.1.0#Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* END Light */
+
+
+/* BEGIN Light Italic */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/LightItalic/OpenSans-LightItalic.eot?v=1.1.0");
+    src: url("../fonts/LightItalic/OpenSans-LightItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/LightItalic/OpenSans-LightItalic.woff2?v=1.1.0") format("woff2"), url("../fonts/LightItalic/OpenSans-LightItalic.woff?v=1.1.0") format("woff"), url("../fonts/LightItalic/OpenSans-LightItalic.ttf?v=1.1.0") format("truetype"), url("../fonts/LightItalic/OpenSans-LightItalic.svg?v=1.1.0#LightItalic") format("svg");
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+/* END Light Italic */
+
+
+/* BEGIN Regular */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/Regular/OpenSans-Regular.eot?v=1.1.0");
+    src: url("../fonts/Regular/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/Regular/OpenSans-Regular.woff2?v=1.1.0") format("woff2"), url("../fonts/Regular/OpenSans-Regular.woff?v=1.1.0") format("woff"), url("../fonts/Regular/OpenSans-Regular.ttf?v=1.1.0") format("truetype"), url("../fonts/Regular/OpenSans-Regular.svg?v=1.1.0#Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* END Regular */
+
+
+/* BEGIN Italic */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/Italic/OpenSans-Italic.eot?v=1.1.0");
+    src: url("../fonts/Italic/OpenSans-Italic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/Italic/OpenSans-Italic.woff2?v=1.1.0") format("woff2"), url("../fonts/Italic/OpenSans-Italic.woff?v=1.1.0") format("woff"), url("../fonts/Italic/OpenSans-Italic.ttf?v=1.1.0") format("truetype"), url("../fonts/Italic/OpenSans-Italic.svg?v=1.1.0#Italic") format("svg");
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/* END Italic */
+
+
+/* BEGIN Semibold */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/Semibold/OpenSans-Semibold.eot?v=1.1.0");
+    src: url("../fonts/Semibold/OpenSans-Semibold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/Semibold/OpenSans-Semibold.woff2?v=1.1.0") format("woff2"), url("../fonts/Semibold/OpenSans-Semibold.woff?v=1.1.0") format("woff"), url("../fonts/Semibold/OpenSans-Semibold.ttf?v=1.1.0") format("truetype"), url("../fonts/Semibold/OpenSans-Semibold.svg?v=1.1.0#Semibold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* END Semibold */
+
+
+/* BEGIN Semibold Italic */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/SemiboldItalic/OpenSans-SemiboldItalic.eot?v=1.1.0");
+    src: url("../fonts/SemiboldItalic/OpenSans-SemiboldItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/SemiboldItalic/OpenSans-SemiboldItalic.woff2?v=1.1.0") format("woff2"), url("../fonts/SemiboldItalic/OpenSans-SemiboldItalic.woff?v=1.1.0") format("woff"), url("../fonts/SemiboldItalic/OpenSans-SemiboldItalic.ttf?v=1.1.0") format("truetype"), url("../fonts/SemiboldItalic/OpenSans-SemiboldItalic.svg?v=1.1.0#SemiboldItalic") format("svg");
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+/* END Semibold Italic */
+
+
+/* BEGIN Bold */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/Bold/OpenSans-Bold.eot?v=1.1.0");
+    src: url("../fonts/Bold/OpenSans-Bold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/Bold/OpenSans-Bold.woff2?v=1.1.0") format("woff2"), url("../fonts/Bold/OpenSans-Bold.woff?v=1.1.0") format("woff"), url("../fonts/Bold/OpenSans-Bold.ttf?v=1.1.0") format("truetype"), url("../fonts/Bold/OpenSans-Bold.svg?v=1.1.0#Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* END Bold */
+
+
+/* BEGIN Bold Italic */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/BoldItalic/OpenSans-BoldItalic.eot?v=1.1.0");
+    src: url("../fonts/BoldItalic/OpenSans-BoldItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/BoldItalic/OpenSans-BoldItalic.woff2?v=1.1.0") format("woff2"), url("../fonts/BoldItalic/OpenSans-BoldItalic.woff?v=1.1.0") format("woff"), url("../fonts/BoldItalic/OpenSans-BoldItalic.ttf?v=1.1.0") format("truetype"), url("../fonts/BoldItalic/OpenSans-BoldItalic.svg?v=1.1.0#BoldItalic") format("svg");
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* END Bold Italic */
+
+
+/* BEGIN Extrabold */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/ExtraBold/OpenSans-ExtraBold.eot?v=1.1.0");
+    src: url("../fonts/ExtraBold/OpenSans-ExtraBold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/ExtraBold/OpenSans-ExtraBold.woff2?v=1.1.0") format("woff2"), url("../fonts/ExtraBold/OpenSans-ExtraBold.woff?v=1.1.0") format("woff"), url("../fonts/ExtraBold/OpenSans-ExtraBold.ttf?v=1.1.0") format("truetype"), url("../fonts/ExtraBold/OpenSans-ExtraBold.svg?v=1.1.0#ExtraBold") format("svg");
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+/* END Extrabold */
+
+
+/* BEGIN Extrabold Italic */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot?v=1.1.0");
+    src: url("../fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff2?v=1.1.0") format("woff2"), url("../fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff?v=1.1.0") format("woff"), url("../fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf?v=1.1.0") format("truetype"), url("../fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.svg?v=1.1.0#ExtraBoldItalic") format("svg");
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+/* END Extrabold Italic */
+
+/*.container-fluid {
+    width: 970px;
+}*/
+
+.whiteText {
+    color: #fff;
+}
+
+
+/*estilo para el body, determina color, familia y tamaño de fuente, así como el fondo en páginas internas*/
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #777;
+    background-color: #fff;
+    padding: 0px;
+}
+
+label {
+    font-weight: 600;
+}
+
+
+/*imagen de fondo*/
+
+.loginBody {
+    background-color: transparent;
+    padding: 0px!important;
+}
+
+.loginBg {
+    background-color: #214767;
+    background-image: url('../images/camsolmg.jpg');
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+}
+
+.loginBg2 {
+    background-color: #214767;
+    background-image: url("../images/camsolmg2.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+}
+
+.loginBg3 {
+    background-color: #214767;
+    background-image: url("../images/camsolmg3.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+}
+
+.loginBg4 {
+    background-color: #214767;
+    background-image: url("../images/bg4.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+}
+
+.loginBg5 {
+    background-color: #214767;
+    background-image: url("../images/bg5.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+}
+
+.loginBgAdmin {
+    background-color: #214767;
+    background-image: url("../images/bg_administrador.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+}
+
+
+/*vínculos en login*/
+
+.top-buffer-login a:focus {
+    color: white !important;
+}
+
+
+/*color de barra de navegación en home*/
+
+.barraNav {
+    background-color: #000000;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+   /* background-image: url("../images/headerInterna.jpg");*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background-size: cover;
+}
+
+
+/*color de barra de navegación en internas*/
+
+.barraNavInterna {
+    background-color: #000000;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../images/headerInterna2.jpg");
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background-size: cover;
+}
+
+
+/*determina la altura de la barra de navegación*/
+
+.navbar {
+    height: 110px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+
+/*Estilos para el logo principal*/
+
+.mainLogo {
+    display: block;
+    margin-top: 18px;
+    height: 72px;
+    width: 120px;
+    text-indent: -9999px;
+    background-image: url(../images/iconCamsol.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px!important;
+}
+
+
+/*divisor entre los dos logos de la cabecera*/
+
+.separadorLogos {
+    margin: 20px 30px 14px 30px;
+    float: left;
+}
+
+
+/* estilos para logo connector*/
+
+.connector {
+    display: block;
+    margin: 25px 0px 20px 0px!important;
+    height: 64px;
+    width: 90px;
+    text-indent: -9999px;
+    background-image: url(../images/connector.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+
+/*estilos para fuente de la etiqueta de selección de lenguaje*/
+
+.langLabel {
+    color: #ffffff!important;
+    font-size: 13px;
+}
+
+
+/*estilos para selección de idioma*/
+
+.selectHome {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+/*estilos para el drop menu de usuario*/
+
+.selectUsuario {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    border: 1px solid;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.selectUsuario:hover {
+    color: #FFF;
+}
+
+
+/*instrucciones nueva contraseña*/
+
+.pwdInst {
+    font-size: 16px;
+    padding-top: 100px;
+    background-color: #fbfbfb;
+    padding-bottom: 100px;
+}
+
+
+/*ícono de usuario*/
+
+.userIcon {
+    display: block;
+    height: 70px;
+    width: 70px;
+    background-image: url(../images/user.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.userIconGray {
+    display: block;
+    height: 70px;
+    width: 70px;
+    background-image: url(../images/userGray.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*título de iniciar sesión*/
+
+.loginTitle {
+    font-size: 40px;
+    color: #FFF;
+    font-weight: 200;
+}
+
+
+/* labels home*/
+
+.labelHome {
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/*Esta clase determina la altura y tamaño de fuente de  los inputs y botones en el login*/
+
+.formsHome {
+    font-size: 16px;
+    height: 40px!important;
+}
+
+
+/* Estas clases determina el color de los botones primarios de la herramienta y su mouse-over*/
+
+.btnMain {
+    background-color: #112339;
+    font-weight: 600;
+    border: none;
+    -webkit-transition: background-color 200ms ease-out 0.1s;
+    -moz-transition: background-color 200ms ease-out 0.1s;
+    -o-transition: background-color 200ms ease-out 0.1s;
+    transition: background-color 200ms ease-out 0.1s;
+}
+
+.btnMain:hover {
+    background-color: #16375f;
+}
+
+
+/*color de las alertas  en todo el sitio:*/
+
+.alert-danger {
+    background-color: #5a0000;
+    border: none;
+    color: #fff;
+}
+
+.alert-success {
+    background-color: #006002;
+    border: none;
+    color: #fff;
+}
+
+.alert-warning {
+    background-color: #dc5d00;
+    border: none;
+    color: #fff;
+}
+
+.alert-info {
+    background-color: #0054bc;
+    border: none;
+    color: #fff;
+}
+
+
+/*-----alertas textuales bajo los inputs-----*/
+
+.top-buffer-login .text-danger {
+    color: #fff900;
+}
+
+
+/*color del botón de cerrar alerta*/
+
+.close {
+    color: #fff !important;
+    text-shadow: none !important;
+    opacity: .5 !important;
+}
+
+
+/* color de vínculo de recuperar contraseña*/
+
+.recuperar {
+    color: #fff;
+}
+
+.recuperar:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+/* barra de navegación*/
+
+.bigDeal {
+    font-size: 11px;
+    float: right
+}
+
+.bigDeal a {
+    font-weight: 600;
+    color: #fff!important;
+}
+
+.bigDeal a:hover {
+    font-weight: 600;
+    color: aqua !important;
+}
+
+
+/*------------Tamaño de encabezados-----------*/
+
+h1 {
+    font-size: 40px;
+    font-weight: 200;
+    color: dimgray;
+}
+
+
+/*------breadcrumb--------*/
+
+.breadcrumb {
+    padding: 8px 0px;
+    margin-bottom: 10px;
+    list-style: none;
+    background-color: transparent!important;
+    border-radius: 0px;
+    font-size: 13px;
+    margin-left: 0px!important;
+}
+
+
+/*----credenciales de usuario---------*/
+
+.credenciales {
+    background-color: #efefef;
+    border-radius: 3px;
+    padding: 15px;
+    margin: 0;
+    /*float: left;*/
+}
+
+.credDatos {
+    padding-left: 60px;
+    background-image: url(../images/userColor.svg);
+    background-repeat: no-repeat;
+    background-position: 10px top;
+    background-size: 40px 40px;
+    min-height: 40px;
+}
+
+.cerrarSesion {
+    padding-left: 60px;
+    background-image: url(../images/exit.svg);
+    background-repeat: no-repeat;
+    background-position: 10px top;
+    background-size: 40px 40px;
+    min-height: 40px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.bienvenida {
+    font-size: 12px;
+}
+
+.enfasisUsuario {
+    font-weight: 600;
+    color: #333;
+}
+
+.logoFooter {
+    width: 50px;
+    display: block;
+    margin: 0px auto 50px auto;
+}
+
+.checkboxFix {
+    margin-top: 30px;
+}
+
+
+/*color de algunos íconos en páginas internas*/
+
+.greyIcon {
+    color: #666;
+}
+
+.botonTransparente {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+
+
+/*elementos de menu de monedas*/
+
+.monedaSelect {
+    width: 100px!important;
+}
+
+
+/*botón de cerrar en 
+    
+    es internos*/
+
+.closeBlack {
+    color: #000 !important;
+}
+
+
+/*-----------captions-----------*/
+
+caption {
+    font-size: 26px;
+    text-align: center;
+    background-color: #fbfbfb;
+}
+
+
+/*--------márgenes correctivos-----------*/
+
+.marginBottomfix {
+    margin-bottom: 10px;
+}
+
+.marginTopfix {
+    margin-top: 10px;
+}
+
+
+/*-----drop down usuario-----------*/
+
+.loginDrop {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.loginDrop .btn.focus,
+.loginDrop .btn:focus,
+.loginDrop .btn:hover {
+    color: #fff!important;
+    text-decoration: none;
+}
+
+.loginDrop .userIcon {
+    display: inline-block;
+    height: 18px!important;
+    width: 18px!important;
+    background-image: url(../images/user.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.loginDrop .dropdown-menu {
+    font-size: 13px!important;
+}
+
+.wellBox {
+    background-image: url(../images/bg_inicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20%;
+}
+
+.userNameMain {
+    font-size: 24px;
+}
+
+.datepicker-group {
+    position: relative;
+}
+
+.datepicker-group .glyphicon {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 23px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.datepicker-group .input-group-addon {
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+}
+
+.wellNoPadding {
+    padding: 15px 0px 0px 0px;
+    ;
+}
+
+.semiLabel {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dropdown-menu {
+    z-index: 2000;
+}
+
+.top-buffer-buscar {
+    margin-top: 24px;
+}
+
+.well {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin:20px 0 20px 0;
+    padding:19px 0;
+    min-height: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    float:left;
+    width:100%;
+}
+.well2 {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.expExcel {
+    display: inline-block;
+    height: 18px!important;
+    width: 18px!important;
+    background-image: url(../images/iconExcel.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.expPDF {
+    display: inline-block;
+    height: 18px!important;
+    width: 18px!important;
+    background-image: url(../images/pdf.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.expXML {
+    display: inline-block;
+    height: 18px!important;
+    width: 18px!important;
+    background-image: url(../images/xml-file.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+
+/*------íconos de órdenes de compra------*/
+
+.iconList {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.icoOrdenes {
+    display: block;
+    height: 12px;
+    width: 12px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+.icoIniciada {
+    background-image: url(../images/iniciada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoCancelada {
+    background-image: url(../images/cancelada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoParCancelada {
+    background-image: url(../images/parCancelada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoCerrada {
+    background-image: url(../images/cerrada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoParCerrada {
+    background-image: url(../images/parcialmenteCerrada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoRechazada {
+    background-image: url(../images/rechazada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoParRechazada {
+    background-image: url(../images/parRechazada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoModificada {
+    background-image: url(../images/modificada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoRevisada {
+    background-image: url(../images/revisada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoAceptada {
+    background-image: url(../images/aceptada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoParAceptada {
+    background-image: url(../images/parAceptada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoRecibida {
+    background-image: url(../images/Recibida.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoParRecibida {
+    background-image: url(../images/parRecibida.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoDevuelta {
+    background-image: url(../images/devuelta.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoASN {
+    background-image: url(../images/asnRegistrado.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoAsesorB2B {
+    background-image: url(../images/asesorB2B.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+.icoMenos {
+    color: red;
+    display: block;
+    width: 12px;
+    height: 12px;
+    line-height: 8px;
+    font-size: 30px;
+}
+
+/* iconos de opciones de órdenes de compra */
+
+.icoBtn {
+    padding: 7px;
+}
+
+.icoOpciones {
+    display: block;
+    height: 12px;
+    width: 12px;
+    float: left;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.icoMensaje {
+    background-image: url(../images/enviarMensaje.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoAdjuntar {
+    background-image: url(../images/adjuntarArchivo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoDetalle {
+    background-image: url(../images/verDetalle.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoXML {
+    background-image: url(../images/xml.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoHistorico {
+    background-image: url(../images/historico.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoAceptar {
+    background-image: url(../images/aceptada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoRechazar {
+    background-image: url(../images/rechazada.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoASN2 {
+    background-image: url(../images/ASN.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoCita {
+    background-image: url(../images/citas.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoAvisos {
+    background-image: url(../images/avisos.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoPaqueteria {
+    background-image: url(../images/paqueteria.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoRecibos {
+    background-image: url(../images/recibos.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoCancel {
+    background-image: url(../images/cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoEditado {
+    background-image: url(../images/list.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+}
+
+.icoLinks {
+    display: inline-block;
+    float: left;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.linkTable {
+    float: left;
+    margin-right: 20px;
+}
+
+.histCitas {
+    width: 100%;
+    max-height: 250px!important;
+    overflow-y: scroll!important;
+}
+
+#tblPartidas th {
+    background-color: #e3e3e3;
+}
+
+.tblPartidas th {
+    background-color: #efefef;
+    vertical-align: middle!important;
+}
+
+.tblPartidasTH {
+    background-color: #d3d3d3!important;
+    vertical-align: middle!important;
+}
+
+.thTblPartidas {
+    background-color: #f9f9f9!important;
+}
+
+.avisosTitulo {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.avisosTituloDetalle {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.scrollerBox {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 400px!important;
+    border: 1px solid #dddddd;
+}
+
+.wordWrap {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.table-rounded {
+    border: 2px solid;
+    border-radius: 5px 5px 0 0;
+    padding: 0!important;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.th-OC {
+    color: #FFF;
+    background: #1f405f!important;
+    border-bottom: 4px solid #0f2233!important;
+    border-right: none!important;
+    border-left: none!important;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 3px 8px!important;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.th-OC a {
+    color: aqua!important;
+}
+
+.th-Main {
+    font-size: 18px;
+}
+
+.th-Main span {
+    margin-top: -3px;
+    display: block;
+}
+
+.buttonFix {
+    padding-top: 7px!important;
+}
+
+.outlineTab {
+    border: 1px solid #ddd;
+    border-top: none!important;
+    padding: 15px;
+}
+
+.bubble {
+    position: relative;
+    /*width: 250px;
+height: 120px;*/
+    padding: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff!important;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2b3449+0,3f4c6b+100 */
+    background: #2b3449;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #2b3449 0%, #3f4c6b 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #2b3449 0%, #3f4c6b 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #2b3449 0%, #3f4c6b 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b3449', endColorstr='#3f4c6b', GradientType=0);
+    /* IE6-9 */
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: #2b3449 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -15px;
+    left: 45%;
+}
+
+.pointsNS {
+    font-size: 70px;
+    color: azure
+}
+
+.listScroll {
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.reportesTable {
+    width: auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.badgeTest {
+    margin-left: -10px;
+    margin-top: -10px;
+    background-color: #f40909;
+}
+
+.h1Anexos {
+    font-size: 20px;
+}
+
+.h2Anexos {
+    font-size: 16px;
+}
+
+.inboxIco {
+    height: 15px;
+    width: 15px;
+}
+
+.fileIn {
+    width: 200px
+}
+
+.wellFile {
+    /* min-height: 20px; */
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    float: left;
+    width: 100%;
+}
+
+.fecha {
+    font-size: 12px;
+}
+
+.semiLabel2 {
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 4px;
+}
+
+.form-horizontal .control-label2 {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left
+}
+
+.horLabel {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 15px;
+    float: left;
+    width: auto;
+}
+
+.containerXML {
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+}
+
+.checkboxTable {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.checkboxTable label {
+    font-weight: 700!important;
+}
+
+.tab-content2 {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 20px
+}
+
+.tab-content2>.tab-pane {
+    display: none;
+}
+
+.tab-content2>.active {
+    display: block;
+}
+
+.tab-content2>.active {
+    display: block;
+}
+
+.checkboxOC {
+    position: absolute;
+    left: 35px;
+}
+
+.absoluteOC {
+    position: absolute;
+    left: 35px
+}
+
+.absoluteOC2 {
+    position: absolute;
+    left: 103px;
+    top: 11px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.tweaked-margin-left {
+    margin-left: 4px; 
+}
+
+
+
+
+.container-fluid2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*estilos para días del mes pasado y mes futuro en datepicker*/
+.new{color: lightgrey!important;}
+.old{color: lightgrey!important;}
+
+/*---------BREAKPOINTS---------*/
+
+
+/* estilo que determina la altura de la navegación principal a partir de 1024 pixeles de ancho hasta resoluciones mayores*/
+
+@media only screen and (min-width: 1024px) {
+    .bigDeal {
+        font-size: 11px;
+        float: right!important;
+        margin-top: -50px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .container-fluid{
+        width:970px!important;
+        margin: 0 auto!important;
+   
+    }
+    .loginDrop {
+    position: absolute;
+    top: 15px;
+    }
+}
+
+@media only screen and (max-height: 650px) {
+    .top-buffer-login {
+    margin-top: 140px!important;
+}
+}
+
+
+
+
+/*estilo que define la ubicación y apariencia del menú principal en resoluciones entre 768px y 1024px, ubicándolo debajo de la barra de branding*/
+
+
+
+@media only screen and (max-width: 1024px) {
+    .bigDeal {
+        font-size: 11px;
+        float: left;
+        margin-top: 0px;
+        background-color: black;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 109px;
+        padding-left: 10px;
+    }
+}
+
+
+
+/*breakpoint que determina diversos estilos para resoluciones pequeñas*/
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .mainLogo {
+        display: block;
+        margin-top: 28px;
+        height: 48px;
+        width: 85px;
+        text-indent: -9999px;
+        background-image: url(../images/iconCamsol.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 15px!important;
+    }
+    .separadorLogos {
+        margin: 20px 15px 14px 15px;
+        float: left;
+    }
+    .connector {
+        display: block;
+        margin: 32px 0px 20px 0px!important;
+        height: 47px;
+        width: 66px;
+        text-indent: -9999px;
+        background-image: url(../images/connector.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+    }
+    .breadcrumb {
+        padding: 8px 0px!important;
+        margin-bottom: 20px;
+        list-style: none;
+        background-color: transparent!important;
+        border-radius: 0px;
+    }
+   
+    .cerrarSesion {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .mainLogo {
+        display: block;
+        margin-top: 15px;
+        height: 81px;
+        width: 135px;
+        text-indent: -9999px;
+        background-image: url(../images/iconCamsol.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0px !important;
+    }
+
+}
+
+
+
+
+/*----correctivos para el menu de hamburguesa------*/
+
+.dropdown-large {
+    padding: 20px;
+}
+
+@media all and (min-width: 992px) {
+
+    .dropdown-large {
+        min-width: 500px;
+    }
+}

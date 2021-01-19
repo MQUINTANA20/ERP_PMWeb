@@ -1,0 +1,47 @@
+﻿@model EmailNotifications.ModelTemplates.SuccessValidationPurchaseOrderModel
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Estimado(a): @Model.NombreCompletoUsuario
+    </p>
+    <p>
+        El archivo @Model.ArchivoProcesado fue procesado.
+    </p>
+	<br />
+    <p>
+        @if (Model.VariasOC)
+        {
+            @:Las siguientes Órdenes de compra se agregaron correctamente: @Model.NumeroOrdenCompra.
+        }
+        else
+        {
+            @:La orden de compra: @Model.NumeroOrdenCompra, fue agregada correctamente.
+        }
+    </p>
+	<br />
+	<p>
+        @if (Model.lPartidasCorrectas.Count() > 0)
+        {
+            @:Las siguientes Partidas fueron registradas correctamente:
+            <ul>
+                @foreach (var prod in @Model.lPartidasCorrectas)
+                {
+                    <li>
+                        @prod
+                    </li>
+                }
+            </ul>
+        }
+    </p>
+    <p>
+        <br />
+        @Model.MensajeGeneral
+    </p>
+</body>
+</html>

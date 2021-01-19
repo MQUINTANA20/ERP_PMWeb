@@ -1,0 +1,32 @@
+﻿@model EmailNotifications.ModelTemplates.ValidarArchivoSaldos
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Estimado(a): @Model.NombreUsurio
+        <br />
+        Durante el procesamiento del Archivo de Saldos: @Model.NombreArchivo, se encontraron los siguientes errores:
+    </p>
+    <p>
+        Fecha y Hora de Procesamiento: @Model.Fecha
+    </p>
+        @foreach (var item in Model.Error)
+        {
+            <p>
+                Número de linea del error: @item.LineaError
+                <br />
+                Layout del error: @item.slinea
+                <br />
+                Error: @item.Error
+                <br />
+                Detalle del error: @item.DetalleErrorLinea
+            </p>
+        }
+    <p>@Model.MensajeGral</p>
+</body>
+</html>

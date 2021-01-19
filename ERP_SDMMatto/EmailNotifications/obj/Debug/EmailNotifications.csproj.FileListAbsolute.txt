@@ -1,0 +1,52 @@
+F:\InfotecProyectos\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\EmailNotifications.dll
+F:\InfotecProyectos\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\EmailNotifications.pdb
+F:\InfotecProyectos\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\RazorEngine.dll
+F:\InfotecProyectos\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\System.Web.Razor.dll
+F:\InfotecProyectos\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\Trirand.Web.Mvc.dll
+F:\InfotecProyectos\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\RazorEngine.xml
+F:\InfotecProyectos\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\System.Web.Razor.xml
+F:\InfotecProyectos\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\obj\Debug\EmailNotifications.dll
+F:\InfotecProyectos\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\obj\Debug\EmailNotifications.pdb
+F:\InfotecProyectos\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\obj\Debug\EmailNotifications.csprojResolveAssemblyReference.cache
+D:\B2B\PROYECTO\EmailNotifications\bin\Debug\EmailNotifications.dll
+D:\B2B\PROYECTO\EmailNotifications\bin\Debug\EmailNotifications.pdb
+D:\B2B\PROYECTO\EmailNotifications\bin\Debug\RazorEngine.dll
+D:\B2B\PROYECTO\EmailNotifications\bin\Debug\System.Web.Razor.dll
+D:\B2B\PROYECTO\EmailNotifications\bin\Debug\Trirand.Web.Mvc.dll
+D:\B2B\PROYECTO\EmailNotifications\bin\Debug\RazorEngine.xml
+D:\B2B\PROYECTO\EmailNotifications\bin\Debug\System.Web.Razor.xml
+D:\B2B\PROYECTO\EmailNotifications\obj\Debug\EmailNotifications.csprojResolveAssemblyReference.cache
+D:\B2B\PROYECTO\EmailNotifications\obj\Debug\EmailNotifications.dll
+D:\B2B\PROYECTO\EmailNotifications\obj\Debug\EmailNotifications.pdb
+C:\Users\Jesus Gonzalez\Documents\Proyects\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\EmailNotifications.dll
+C:\Users\Jesus Gonzalez\Documents\Proyects\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\EmailNotifications.pdb
+C:\Users\Jesus Gonzalez\Documents\Proyects\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\RazorEngine.dll
+C:\Users\Jesus Gonzalez\Documents\Proyects\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\System.Web.Razor.dll
+C:\Users\Jesus Gonzalez\Documents\Proyects\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\Trirand.Web.Mvc.dll
+C:\Users\Jesus Gonzalez\Documents\Proyects\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\RazorEngine.xml
+C:\Users\Jesus Gonzalez\Documents\Proyects\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\bin\Debug\System.Web.Razor.xml
+C:\Users\Jesus Gonzalez\Documents\Proyects\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\obj\Debug\EmailNotifications.dll
+C:\Users\Jesus Gonzalez\Documents\Proyects\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\obj\Debug\EmailNotifications.pdb
+C:\Users\Jesus Gonzalez\Documents\Proyects\B2B\administracionProducto\04Implementacion\trunk\Desarrollo\EmailNotifications\obj\Debug\EmailNotifications.csprojResolveAssemblyReference.cache
+D:\DOCS MARCO QUINTANA\Documents\B2B\EmailNotifications\bin\Debug\EmailNotifications.dll
+D:\DOCS MARCO QUINTANA\Documents\B2B\EmailNotifications\bin\Debug\EmailNotifications.pdb
+D:\DOCS MARCO QUINTANA\Documents\B2B\EmailNotifications\bin\Debug\RazorEngine.dll
+D:\DOCS MARCO QUINTANA\Documents\B2B\EmailNotifications\bin\Debug\System.Web.Razor.dll
+D:\DOCS MARCO QUINTANA\Documents\B2B\EmailNotifications\bin\Debug\Trirand.Web.Mvc.dll
+D:\DOCS MARCO QUINTANA\Documents\B2B\EmailNotifications\bin\Debug\RazorEngine.xml
+D:\DOCS MARCO QUINTANA\Documents\B2B\EmailNotifications\bin\Debug\System.Web.Razor.xml
+D:\DOCS MARCO QUINTANA\Documents\B2B\EmailNotifications\obj\Debug\EmailNotifications.dll
+D:\DOCS MARCO QUINTANA\Documents\B2B\EmailNotifications\obj\Debug\EmailNotifications.pdb
+D:\DOCS MARCO QUINTANA\Documents\B2B\EmailNotifications\obj\Debug\EmailNotifications.csprojResolveAssemblyReference.cache
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\bin\Debug\EmailNotifications.dll
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\bin\Debug\EmailNotifications.pdb
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\bin\Debug\RazorEngine.dll
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\bin\Debug\System.Web.Razor.dll
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\bin\Debug\Trirand.Web.Mvc.dll
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\bin\Debug\RazorEngine.xml
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\bin\Debug\System.Web.Razor.xml
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\obj\Debug\EmailNotifications.csprojAssemblyReference.cache
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\obj\Debug\EmailNotifications.csproj.CoreCompileInputs.cache
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\obj\Debug\EmailNotifications.csproj.CopyComplete
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\obj\Debug\EmailNotifications.dll
+C:\Users\mquintana\source\repos\ERP_SDMMatto\EmailNotifications\obj\Debug\EmailNotifications.pdb

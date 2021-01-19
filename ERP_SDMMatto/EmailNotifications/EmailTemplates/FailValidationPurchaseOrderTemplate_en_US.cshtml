@@ -1,0 +1,25 @@
+﻿@model EmailNotifications.ModelTemplates.RecoveryPasswordModel
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Estimado(a): @Model.NombreCompletoUsuario
+
+        DURANTE EL PROCESAMIENTO DE LA ORDEN DE COMPRA: @Model.NumeroOrdenCompra, SE ENCONTRARON LOS SIGUIENTES ERRORES:
+        
+    </p>
+    @foreach(var prod in @Model.Errors) {
+        <p>
+            <b>
+                @prod
+            </b>
+        </p>
+    }
+
+</body>
+</html>

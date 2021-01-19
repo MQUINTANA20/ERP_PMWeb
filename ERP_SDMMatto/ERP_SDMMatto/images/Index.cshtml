@@ -1,0 +1,117 @@
+﻿@model ERP_SDMMatto.Models.clsSeguridad
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/VwPrincipal.cshtml";
+}
+
+
+@section sidebar{
+
+    <li class="active">@ERP_SDMMatto.Properties.Resources.Inicio</li>
+}
+
+@using (Html.BeginForm("ValidaUsuario", "Seguridad", FormMethod.Post,
+                               new { enctype = "multipart/form-data" }))
+{
+<div class="row top-buffer">
+    <div class="col-md-12" >
+        <div class="row justify-content-center">
+            <div class="col-md-4  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                <div class="form-group">
+                    * @Html.LabelFor(model => model.Usuario,  new { @class = "control-label" })
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+
+                        @Html.TextBoxFor(model => model.Usuario, new { @class = "form-control", @maxlength = "50", @onfocusout = "return getsuc();",  @style = "text-transform:uppercase"  })
+               
+                    </div>
+                </div>
+        </div>
+            </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4  col-md-offset-4 col-xs-6 col-xs-offset-3">
+                <div class="form-group">
+                    * @Html.LabelFor(model => model.Contrasena,new { @class = "control-label" })
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                        @Html.PasswordFor(model => model.Contrasena, new { @class = "form-control", @maxlength = "50" })
+                    </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-6" for="CatSucursalesSelect">@ERP_SDMMatto.Properties.Resources.Sucursal</label>
+                    <div class="col-sm-6">
+                        @Html.DropDownListFor(model => model.CatSucursalesSelect, Model.CatSucursales, new { @class = "form-control suc" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center">
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                <div class="col-md-12 text-center top-buffer">
+                    <input type="submit" value="@ERP_SDMMatto.Properties.Resources.Entrar" class="btn btn-primary" />
+
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+
+ </div>
+
+    }
+
+<script type="text/javascript">
+   
+     function getsuc() {
+            alert("hola");
+            var username = $("#Usuario").val();
+            var uri = '@Url.Action("GetSucursales","Seguridad")';
+
+            alert(username);
+            if (username.length > 0) {
+                $.ajax({
+                    url: uri,
+                    type: 'GET',
+                    dataType: 'json',
+                    contentType: 'application/json; charset=utf-8',
+                    data: { usuario: username },
+                    //data: username,
+                    success: function (data) {
+                        
+                        var i = 0;
+                        $('.suc option').each(function () {
+                                $(this).remove();
+                            
+                        });
+                        $.each(data, function (index, value) {
+                            i++;
+                            $('#CatSucursalesSelect').append($('<option/>', {
+                                value: i,
+                                text: value
+                            }));
+                        });      
+                    },
+                    error: function (e) {
+                        alert(e);
+                    }
+                });
+            }
+        };
+    $(document).ready(function () {
+
+
+    });
+</script>

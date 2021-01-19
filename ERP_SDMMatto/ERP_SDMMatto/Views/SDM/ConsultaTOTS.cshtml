@@ -1,0 +1,84 @@
+﻿@model IEnumerable<ERP_SDMMatto.Models.clsTOTS>
+@{
+    ViewBag.Title = "ConsultaTOTS";
+    Layout = "~/Views/Shared/VwPrincipal.cshtml";
+}
+
+
+@section sidebar{
+
+    <li class="active">TOTS</li>
+}
+
+@*<div class="row">
+    <div class="col-md-12">
+        <a href=@Url.Action("OpcionesUnidad", "SDM", new { idUnidad = Model.First().IdOrden, KM = Model.First().KM }) class="btn btn-default"><h3><span class="badge badge-secondary">  Regresar </span></h3></a>
+    </div>
+</div>*@
+<div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("Index", "SDM")'">Inicio</button>
+    <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("OpcionesUnidad", "SDM", new { idUnidad = Model.First().IdOrden, KM = Model.First().KM })'">Unidad</button>
+
+    <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("ListarQuickCheck", "SDM", new { idOrden = Model.First().IdOrden, serieU = Model.First().IdUnidad})'">@ERP_SDMMatto.Properties.Resources.CapturaItems</button>
+    <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("BuscaQC", "SDM", new { idOrden = Model.First().IdOrden, serieU = Model.First().IdUnidad})'">@ERP_SDMMatto.Properties.Resources.BuscaQC</button>
+    <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("ConsultaRefacciones", "SDM", new { idOrden = Model.First().IdOrden, unidad = Model.First().IdUnidad})'">Refacciones</button>
+    <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("ConsultaMO", "SDM", new { idOrden = Model.First().IdOrden, unidad = Model.First().IdUnidad })'">MO</button>
+    <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("ConsultaTOTS", "SDM", new { idOrden = Model.First().IdOrden, unidad = Model.First().IdUnidad})'">TOTS</button>
+
+</div>
+
+
+<div class="row top-buffer">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="form-group"> 
+                <div class="col-md-12 text-center top-buffer">
+                    <Lable>Unidad:</Lable>
+                    @Html.DisplayFor(m => m.First().IdUnidad)
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row  top-buffer">
+    <div class="col-md-12">
+        <div class="card">
+
+            <div class="card-body">
+
+                <ul class="list-group list-group-flush">
+
+                    @foreach (var item in Model)
+                    {
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            <div class="flex-column">
+                                Articulo : @item.Articulo
+                                <p><small>Descripción: @item.Descripcion</small></p>
+                                <p><small>Proveedor: @item.Proovedor</small></p>
+                                <p><small>Nombre: @item.Nombre</small></p>
+
+
+                            </div>
+
+                        </a>
+
+                    }
+
+                </ul>
+
+
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <br>
+
+</div>

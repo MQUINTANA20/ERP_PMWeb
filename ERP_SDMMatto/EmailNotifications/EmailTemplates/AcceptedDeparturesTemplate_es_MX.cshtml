@@ -1,0 +1,33 @@
+﻿@model EmailNotifications.ModelTemplates.SuccessValidationPurchaseOrderModel
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Estimado(a): @Model.NombreCompletoUsuario
+    </p>
+    <p>
+        El archivo @Model.ArchivoProcesado fue procesado.
+    </p>
+    <p>
+        La Orden de Compra número @Model.NumeroOrdenCompra tiene las siguientes partidas registradas
+    </p><br />
+    <ul>
+        @foreach (var prod in @Model.lPartidasCorrectas)
+        {
+            <li>
+                @prod
+            </li>
+        }
+    </ul>
+
+    <p>
+    <br />
+        @Model.MensajeGeneral
+    </p>
+</body>
+</html>

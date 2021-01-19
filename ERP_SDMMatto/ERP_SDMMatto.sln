@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP_SDMMatto", "ERP_SDMMatto\ERP_SDMMatto.csproj", "{5E0D4885-4EB1-4EF0-949A-9FACFBD90876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailNotifications", "EmailNotifications\EmailNotifications.csproj", "{17D5B743-10A8-4407-922F-A9E09965D959}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E0D4885-4EB1-4EF0-949A-9FACFBD90876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0D4885-4EB1-4EF0-949A-9FACFBD90876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0D4885-4EB1-4EF0-949A-9FACFBD90876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0D4885-4EB1-4EF0-949A-9FACFBD90876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D5B743-10A8-4407-922F-A9E09965D959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D5B743-10A8-4407-922F-A9E09965D959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D5B743-10A8-4407-922F-A9E09965D959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D5B743-10A8-4407-922F-A9E09965D959}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3B5062C-1C80-4143-9CA8-B30C53CC393C}
+	EndGlobalSection
+EndGlobal

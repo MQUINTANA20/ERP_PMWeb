@@ -1,0 +1,17 @@
+﻿@model EmailNotifications.ModelTemplates.ValidarArchivoSaldos
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Estimado(a): @Model.NombreUsurio
+        <br />
+        EL ARCHIVO DE SALDOS @Model.NombreArchivo HA SIDO PROCESADO CORRECTAMENTE.
+    </p>
+    <p>@Model.MensajeGral</p>
+</body>
+</html>

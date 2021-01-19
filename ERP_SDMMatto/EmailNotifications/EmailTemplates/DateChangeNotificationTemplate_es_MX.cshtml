@@ -1,0 +1,27 @@
+﻿@model EmailNotifications.ModelTemplates.DateModel
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+
+       Estimado Proveedor su cita ha sido cambiada de fecha por : <b>@Model.FechaSolicitada </b> 
+        propuesta por el almacenista.
+        <br />
+        <p>
+        Cita: @Model.Solicitud
+        <b>Fecha Solicitada: </b> @Model.FechaSolicitadaAnterior 
+        <b> Almacén:</b>	@Model.Almacen
+        <b>	Tarimas:</b> @Model.Tarimas
+        <b>Transporte:</b>	@Model.Transporte
+        <b>Cantidad de Transporte: </b>	@Model.CantidadTransporte
+
+        
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿@model EmailNotifications.ModelTemplates.SuccessValidationPurchaseOrderModel
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Estimado(a): @Model.NombreCompletoUsuario
+    </p>
+    <p>
+        El archivo @Model.ArchivoProcesado fue procesado.
+    </p>
+	<br />
+    <p>
+        @if (Model.VariasOC)
+        {
+            @:Partidas Cerradas en las siguientes Órdenes de compra: @Model.NumeroOrdenCompra.
+        }
+        else
+        {
+            @:Partidas Cerradas en la siguiente Orden de compra: @Model.NumeroOrdenCompra.
+        }
+    </p>
+	<br />
+	<p>
+        @if (@Model.lPartidasCerradas.Count() <= 0)
+        {
+            @:No hay Partidas Cerradas
+        }
+        else
+        {
+            @:Las siguientes Partidas se Cerraron correctamente:
+            <ul>
+                @foreach (var prod in @Model.lPartidasCerradas)
+                {
+                    <li>
+                        @prod
+                    </li>
+                }
+            </ul>
+        }
+    </p>		
+    <p>
+    @if (@Model.lErrOrdenCompra != null && @Model.lErrOrdenCompra.Count > 0)
+    {
+	    string sTxtMostrarOC = "Orden de Compra: ";
+        string sNumOC = "";
+        sNumOC = Model.lErrOrdenCompra.ElementAt(0).OC;
+		@:Se encontraron los siguientes errores:
+        @:<br />
+        <ul>
+            @sTxtMostrarOC @sNumOC
+
+            @foreach (EmailNotifications.ModelTemplates.ErrOrdenCompra item in Model.lErrOrdenCompra)
+            {
+                if (item.OC != sNumOC)
+                {
+                    @:</ul><br />
+                    @:<ul>
+                    sNumOC = item.OC;
+                    @sTxtMostrarOC @sNumOC
+                }
+                <li>
+                    @item.Error
+                </li>
+            }
+        </ul>
+    }	
+        <br />
+        @Model.MensajeGeneral
+    </p>
+</body>
+</html>

@@ -1,0 +1,137 @@
+﻿@model EmailNotifications.ModelTemplates.SuccessValidationPurchaseOrderModel
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Estimado(a): @Model.NombreCompletoUsuario
+    </p>
+    <p>
+        El archivo @Model.ArchivoProcesado fue procesado.
+        <br />
+        @if (Model.VariasOC)
+        {
+            @:Órdenes de compra afectadas: @Model.NumeroOrdenCompra.
+        }
+        else
+        {
+            @:Orden de compra afectada: @Model.NumeroOrdenCompra.
+        }
+    </p>
+    @{
+        string sTxtMostrarOC = "Orden de Compra: ";
+        string sNumOC = "";
+    }
+    @if (@Model.lErrOrdenCompra != null && @Model.lErrOrdenCompra.Count > 0)
+    {
+        sNumOC = Model.lErrOrdenCompra.ElementAt(0).OC;
+        @:<br />
+        <ul>
+            @sTxtMostrarOC @sNumOC;
+
+            @foreach (EmailNotifications.ModelTemplates.ErrOrdenCompra item in Model.lErrOrdenCompra)
+            {
+                if (item.OC != sNumOC)
+                {
+                @:</ul><br />
+                @:<ul>
+                    sNumOC = item.OC;
+                    @sTxtMostrarOC @sNumOC
+                }
+                <li>
+                    @item.Error
+                </li>
+            }
+        </ul>
+    }
+
+    @if (@Model.lPartidasCorrectas != null && @Model.lPartidasCorrectas.Count > 0)
+    {
+        <br />
+        <p>
+            Las siguientes Partidas se agregaron correctamente:
+        </p><br />
+        <ul>
+            @foreach (var prod in @Model.lPartidasCorrectas)
+                {
+                <li>
+                    @prod
+                </li>
+            }
+        </ul>
+    }
+
+    @if (@Model.lPartidasModificadas != null && @Model.lPartidasModificadas.Count > 0)
+    {
+        <br />
+        <p>
+            Las siguientes Partidas se modificaron correctamente:
+        </p><br />
+        <ul>
+            @foreach (var prod in @Model.lPartidasModificadas)
+                {
+                <li>
+                    @prod
+                </li>
+            }
+        </ul>
+    }
+
+    @if (@Model.lRecepcionAlmacen != null && @Model.lRecepcionAlmacen.Count > 0)
+    {
+        <br />
+        <p>
+            Partidas en Recepción en Almacén correctas:
+        </p><br />
+        <ul>
+            @foreach (var prod in @Model.lRecepcionAlmacen)
+                {
+                <li>
+                    @prod
+                </li>
+            }
+        </ul>
+    }
+
+    @if (@Model.lPartidasCanceladas != null && @Model.lPartidasCanceladas.Count > 0)
+    {
+        <br />
+        <p>
+            Partidas Canceladas correctamente:
+        </p><br />
+        <ul>
+            @foreach (var prod in @Model.lPartidasCanceladas)
+            {
+                <li>
+                    @prod
+                </li>
+            }
+        </ul>
+    }
+
+    @if (@Model.lPartidasDevolucion != null && @Model.lPartidasDevolucion.Count > 0)
+    {
+        <br />
+        <p>
+            Devolución en Partidas correctas:
+        </p><br />
+        <ul>
+            @foreach (var prod in @Model.lPartidasDevolucion)
+            {
+                <li>
+                    @prod
+                </li>
+            }
+        </ul>
+    }
+
+    <p>
+        <br />
+        @Model.MensajeGeneral
+    </p>
+</body>
+</html>

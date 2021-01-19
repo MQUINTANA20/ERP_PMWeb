@@ -1,0 +1,49 @@
+﻿@model EmailNotifications.ModelTemplates.SuccessValidationPurchaseOrderModel
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Estimado(a): @Model.NombreCompletoUsuario
+    </p>
+    <p>
+        El archivo @Model.ArchivoProcesado fue procesado.
+    </p>
+    <p>
+        Durante el procesamiento de la orden de compra: @Model.NumeroOrdenCompra, se encontraron los siguientes errores:
+    </p>
+    @{ 
+        string sTxtMostrarOC = "Orden de Compra: ";
+        string sNumOC = "";
+    }
+    @if (Model.lErrOrdenCompra != null && Model.lErrOrdenCompra.Count > 0)
+    {
+        sNumOC = Model.lErrOrdenCompra.ElementAt(0).OC;
+        @:<br />
+        <ul>
+            @sTxtMostrarOC @sNumOC
+
+            @foreach (EmailNotifications.ModelTemplates.ErrOrdenCompra item in Model.lErrOrdenCompra)
+            {
+                if (item.OC != sNumOC)
+                {
+                    @:</ul><br />
+                    @:<ul>
+                    sNumOC = item.OC;
+                    @sTxtMostrarOC @sNumOC
+                }
+        <li>
+            @item.Error
+        </li>
+}
+</ul>
+}
+    <p><br />
+        @Model.MensajeGeneral
+    </p>
+</body>
+</html>

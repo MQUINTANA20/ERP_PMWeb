@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6fc2fb21f21c4c7babe25805e2ffb613" Name="Diagram1" ZoomLevel="94">
+        <EntityTypeShape EntityType="ERPModel.acumulado" Width="1.5" PointX="5.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.acumuladom" Width="1.5" PointX="0.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.acumuladou" Width="1.5" PointX="15.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.addendum" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.addendaclientefinal" Width="1.5" PointX="5.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.addendadistribuidor" Width="1.5" PointX="17.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.addendatipodocumento" Width="1.5" PointX="12.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.addendatiposervicio" Width="1.5" PointX="14.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.aduana" Width="1.5" PointX="2.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.af" Width="1.5" PointX="29.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.afartserie" Width="1.5" PointX="0.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.afcarga" Width="1.5" PointX="5.25" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.afconsecutivo" Width="1.5" PointX="7.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.afcont" Width="1.5" PointX="4.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.afd" Width="1.5" PointX="5.25" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.aftipo" Width="1.5" PointX="24.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.agentegrupo" Width="1.5" PointX="31.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.aioskey" Width="1.5" PointX="31.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.aioslog" Width="1.5" PointX="32.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.aiosreport" Width="1.5" PointX="32.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.almacen" Width="1.5" PointX="14" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.almacenconsignaart" Width="1.5" PointX="29.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.almacendistancia" Width="1.5" PointX="33.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.almacensurtido" Width="1.5" PointX="33.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.almacenubicacione" Width="1.5" PointX="33.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.almacenubicacionesart" Width="1.5" PointX="12.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.almacenubicacionesartd" Width="1.5" PointX="14.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ap" Width="1.5" PointX="16.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.apconsecutivo" Width="1.5" PointX="18.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.apd" Width="1.5" PointX="10.25" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.artcontacto" Width="1.5" PointX="33.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.artcontactohist" Width="1.5" PointX="31.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.artesporadicoxtiempoentrega" Width="1.5" PointX="33.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulo" Width="1.5" PointX="3" PointY="43" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articuloaplicacion" Width="1.5" PointX="33.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulocategoria" Width="1.5" PointX="34.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articuloclasegasto" Width="1.5" PointX="33.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulocomandaextra" Width="1.5" PointX="5.25" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulocosto" Width="1.5" PointX="34.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulocostocapa" Width="1.5" PointX="34.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulocostocapaauxiliar" Width="1.5" PointX="35.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulofamilia" Width="1.5" PointX="35.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulogrupo" Width="1.5" PointX="35.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulohit" Width="1.5" PointX="35.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articuloimpuestotipo" Width="1.5" PointX="0.75" PointY="51.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulokit" Width="1.5" PointX="5.25" PointY="40.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulokitd" Width="1.5" PointX="7.5" PointY="50" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulolinea" Width="1.5" PointX="24.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articuloposicion" Width="1.5" PointX="26.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articuloproductosservicio" Width="1.5" PointX="28.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulosugerido" Width="1.5" PointX="35.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulosustituto" Width="1.5" PointX="0.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulotipodemanda" Width="1.5" PointX="35.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulounidad" Width="1.5" PointX="5.25" PointY="51.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.artkitseleccion" Width="1.5" PointX="7.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.artmaterial" Width="1.5" PointX="5.25" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.auxiliar" Width="1.5" PointX="36.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.auxiliarcarroceria" Width="1.5" PointX="18.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.auxiliarm" Width="1.5" PointX="36.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.auxiliaru" Width="1.5" PointX="30.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.auxiliarunidad" Width="1.5" PointX="13.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.banco" Width="1.5" PointX="29.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bancosucursal" Width="1.5" PointX="32" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bc" Width="1.5" PointX="32.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bcaplicadif" Width="1.5" PointX="34.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bcconsecutivo" Width="1.5" PointX="36.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bccont" Width="1.5" PointX="37.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bcd" Width="1.5" PointX="37.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bcdconcepto" Width="1.5" PointX="37.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bcformapagocobro" Width="1.5" PointX="37.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bcingresorestante" Width="1.5" PointX="37.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bcpendienteaplicar" Width="1.5" PointX="20.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bctasaimpuesto1" Width="1.5" PointX="37.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bctasaimpuesto2" Width="1.5" PointX="37.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bctasaiva" Width="1.5" PointX="38.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.busquedaavanzada" Width="1.5" PointX="38.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.busquedaavanzadab" Width="1.5" PointX="22.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.busquedaavanzadac" Width="1.5" PointX="38.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.busquedaavanzadad" Width="1.5" PointX="38.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bymarticulopuntada" Width="1.5" PointX="38.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cajaformapagocobro" Width="1.5" PointX="38.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cajaformapagocobroespejo" Width="1.5" PointX="39.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidad" Width="1.5" PointX="39.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadconceptoevalm" Width="1.5" PointX="7.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadconceptoevaluacion" Width="1.5" PointX="15.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadconsecutivo" Width="1.5" PointX="39.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadd" Width="1.5" PointX="40.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidaddtareafechaconcluir" Width="1.5" PointX="39.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadequipotrabajo" Width="1.5" PointX="39.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadevaluacion" Width="1.5" PointX="40.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadevaluacionesd" Width="1.5" PointX="40.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadevaluacionesdd" Width="1.5" PointX="40.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadevento" Width="1.5" PointX="40.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadeventoc" Width="1.5" PointX="40.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadnorma" Width="1.5" PointX="7.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadplan" Width="1.5" PointX="41.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadplanconsecutivo" Width="1.5" PointX="41.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadpland" Width="1.5" PointX="41.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadquickcheck" Width="1.5" PointX="17.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadrequisito" Width="1.5" PointX="10" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadrequisitod" Width="1.5" PointX="12.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadrequisitodactividadqc" Width="1.5" PointX="41.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadrequisitodmov" Width="1.5" PointX="34.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadrequisitodtarea" Width="1.5" PointX="14.5" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadrequisitodtareae" Width="1.5" PointX="16.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadrequisitodtareau" Width="1.5" PointX="16.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagenda" Width="1.5" PointX="36.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendacap" Width="1.5" PointX="42.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendacatalogo" Width="1.5" PointX="22.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendacatdia" Width="1.5" PointX="7.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendaed" Width="1.5" PointX="42.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendanoefec" Width="1.5" PointX="42.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendaplan" Width="1.5" PointX="28.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendapland" Width="1.5" PointX="42.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendaplangc" Width="1.5" PointX="42.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendaplangcli" Width="1.5" PointX="42.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendaplantu" Width="1.5" PointX="42.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolagendaprevio" Width="1.5" PointX="43.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolasunto" Width="1.5" PointX="43.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolcostoaccesorio" Width="1.5" PointX="43.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolcostocarroceria" Width="1.5" PointX="19.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolcotizcomptracto" Width="1.5" PointX="43.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolcotizcondfinanciera" Width="1.5" PointX="38.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolcotizcostoaciento" Width="1.5" PointX="40.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolcotizregla" Width="1.5" PointX="42.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolcotizvariante" Width="1.5" PointX="24.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsoldiferenciaventa" Width="1.5" PointX="43.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsollistaneg" Width="1.5" PointX="44.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolmanttopejercicio" Width="1.5" PointX="44.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolmargenlinea" Width="1.5" PointX="44.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolmargenventa" Width="1.5" PointX="44.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolobjetivocita" Width="1.5" PointX="44.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsoloportunidad" Width="1.5" PointX="44.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpresupventa" Width="1.5" PointX="44.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpresupventac" Width="1.5" PointX="44.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpresupventacc" Width="1.5" PointX="45.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpromocione" Width="1.5" PointX="44.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpromocionesc" Width="1.5" PointX="45.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpromocionesd" Width="1.5" PointX="46.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpromocionesda" Width="1.5" PointX="45.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpromocionesp" Width="1.5" PointX="45.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpromocionespa" Width="1.5" PointX="46.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpromocionessc" Width="1.5" PointX="46.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolqcategoria" Width="1.5" PointX="21.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolqcvsgrupomantto" Width="1.5" PointX="46.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolqcvsmantto" Width="1.5" PointX="46.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolqcvsmovimiento" Width="1.5" PointX="46.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolqcvsunidad" Width="1.5" PointX="46.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolquickcheck" Width="1.5" PointX="46.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolquickcheckr" Width="1.5" PointX="46.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolquickcheckt" Width="1.5" PointX="46.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolquickchecktot" Width="1.5" PointX="47.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolresultado" Width="1.5" PointX="47.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolsegmentacioncl" Width="1.5" PointX="47.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.catclasificacion" Width="1.5" PointX="18.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.catgestioncobranza" Width="1.5" PointX="47.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.catgrupocliente" Width="1.5" PointX="26.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.catgrupoclientecred" Width="1.5" PointX="28.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.catsectorcliente" Width="1.5" PointX="47.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.catsoportecobro" Width="1.5" PointX="47.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.catsubgrupoc" Width="1.5" PointX="34.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.catsubgrupocliente" Width="1.5" PointX="48.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cattallermantto" Width="1.5" PointX="48.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cattipocarga" Width="1.5" PointX="48.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cattipocliente" Width="1.5" PointX="48.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cattipolicencia" Width="1.5" PointX="48.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.causadevolucion" Width="1.5" PointX="48.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.centrocosto" Width="1.5" PointX="20.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.centrocostosd" Width="1.5" PointX="48.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.centrocostosgrupo" Width="1.5" PointX="48.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdi" Width="1.5" PointX="48.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdibccomplemento" Width="1.5" PointX="48.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdibccomplementod" Width="1.5" PointX="48.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdiconfirmacion" Width="1.5" PointX="49.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdimensaje" Width="1.5" PointX="49.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdipeticionpendiente" Width="1.5" PointX="26.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdirespuesta" Width="1.5" PointX="49.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdisugerir" Width="1.5" PointX="28.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdiuuidrelacionado" Width="1.5" PointX="34.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdiventaaplicar" Width="1.5" PointX="46.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cg" Width="1.5" PointX="10.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgapoyoproveedor" Width="1.5" PointX="48.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgcompraconsignaciondif" Width="1.5" PointX="50.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgcompraconsignaciondifd" Width="1.5" PointX="50.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgconsecutivo" Width="1.5" PointX="50.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgcont" Width="1.5" PointX="50.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgcto" Width="1.5" PointX="50.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgd" Width="1.5" PointX="10.25" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cggasto" Width="1.5" PointX="10.25" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgimportacion" Width="1.5" PointX="50.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgmatfaltante" Width="1.5" PointX="50.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgmatfaltantep" Width="1.5" PointX="50.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgmatfaltantepu" Width="1.5" PointX="50.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgmatfaltante1" Width="1.5" PointX="50.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgmatfaltrastreo" Width="1.5" PointX="51.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgspeccarroceria" Width="1.5" PointX="51.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgspeccarroceriad" Width="1.5" PointX="51.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgspecunidad" Width="1.5" PointX="51.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgspecunidadc" Width="1.5" PointX="52.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgxml" Width="1.5" PointX="52.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgxmlarchivo" Width="1.5" PointX="52.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgxmlimportar" Width="1.5" PointX="52.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.citaspuente" Width="1.5" PointX="18.75" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.clientegrupo" Width="1.5" PointX="52.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cltecontactodepto" Width="1.5" PointX="20.75" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cm" Width="1.5" PointX="52.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsarticulo" Width="1.5" PointX="34.75" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsbonocalidad" Width="1.5" PointX="52.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmscamsol" Width="1.5" PointX="52.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmscamsolsuc" Width="1.5" PointX="42.75" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmscategoria" Width="1.5" PointX="52.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmscb" Width="1.5" PointX="52.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmscliente" Width="1.5" PointX="53.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsconsecutivo" Width="1.5" PointX="53.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmscrm" Width="1.5" PointX="53.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsd" Width="1.5" PointX="26.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsfamilia" Width="1.5" PointX="53.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsgrupo" Width="1.5" PointX="28.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmslinea" Width="1.5" PointX="44.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsmantto" Width="1.5" PointX="54.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsmovaplica" Width="1.5" PointX="54.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsmovimiento" Width="1.5" PointX="54.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsplantilla" Width="1.5" PointX="54.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsporccobro" Width="1.5" PointX="30.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmspresupventa" Width="1.5" PointX="54.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsr2r" Width="1.5" PointX="54.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmstipoct" Width="1.5" PointX="54.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmstipoctexcep" Width="1.5" PointX="54.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsusoflota" Width="1.5" PointX="54.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsvence" Width="1.5" PointX="54.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsventa" Width="1.5" PointX="46.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.codigobarra" Width="1.5" PointX="48.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.codigobarrasformula" Width="1.5" PointX="54.75" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.codigobarrasgenerar" Width="1.5" PointX="50.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.codigopostal" Width="1.5" PointX="52.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.colonia" Width="1.5" PointX="54.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comanda" Width="1.5" PointX="55.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comandad" Width="1.5" PointX="20.75" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comandaformapagocobro" Width="1.5" PointX="55.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comandalistaespera" Width="1.5" PointX="55.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comandamesaunion" Width="1.5" PointX="55.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comandaopcion" Width="1.5" PointX="32.75" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comandaopcionlista" Width="1.5" PointX="34.75" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comandaopcionvalor" Width="1.5" PointX="56.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comandapersona" Width="1.5" PointX="56.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comandaterminal" Width="1.5" PointX="56.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.comandaturno" Width="1.5" PointX="56.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.competidor" Width="1.5" PointX="28.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compitecategoriacto" Width="1.5" PointX="56.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compitecategoriactod" Width="1.5" PointX="56.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compitectodoctipo" Width="1.5" PointX="56.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compitehonorariofolio" Width="1.5" PointX="56.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compitehonorario" Width="1.5" PointX="10.25" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compitehonorariosd" Width="1.5" PointX="10.25" PointY="67.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compiteotrofolio" Width="1.5" PointX="56.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compiteotro" Width="1.5" PointX="5.25" PointY="54.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compiteotrosd" Width="1.5" PointX="56.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compitetarifazona" Width="1.5" PointX="42.75" PointY="56.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compiteusuario" Width="1.5" PointX="56.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compiteviaticofolio" Width="1.5" PointX="56.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compiteviatico" Width="1.5" PointX="10.25" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.compiteviaticosd" Width="1.5" PointX="10.25" PointY="71.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.concepto" Width="1.5" PointX="27.75" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.conceptomov" Width="1.5" PointX="30" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.conciliacionecm" Width="1.5" PointX="56.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.conciliacionedocta" Width="1.5" PointX="56.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.conciliacionesbancaria" Width="1.5" PointX="57.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.conciliamanualpuente" Width="1.5" PointX="57.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.condicionpago" Width="1.5" PointX="57.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.configdocumentosart" Width="1.5" PointX="57.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.configdocumentoscont" Width="1.5" PointX="28.75" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.configdocumentosmov" Width="1.5" PointX="48.75" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.configdocumentosmovc" Width="1.5" PointX="58.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.confmovventasust" Width="1.5" PointX="58.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.constructor" Width="1.5" PointX="58.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.constructorb" Width="1.5" PointX="58.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.constructord" Width="1.5" PointX="58.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.constructori" Width="1.5" PointX="30.75" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.constructort" Width="1.5" PointX="32.75" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.constructortb" Width="1.5" PointX="58.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.constructortbd" Width="1.5" PointX="34.75" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.constructortbi" Width="1.5" PointX="58.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.constructorv" Width="1.5" PointX="58.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cont" Width="1.5" PointX="44.75" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contacto" Width="1.5" PointX="8" PointY="53.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoaddenda" Width="1.5" PointX="58.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoagente" Width="1.5" PointX="58.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoagentesucursal" Width="1.5" PointX="50.75" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoartcond" Width="1.5" PointX="52.75" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoartgrupocond" Width="1.5" PointX="58.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoarticulocp" Width="1.5" PointX="58.75" PointY="56.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactobeneficiario" Width="1.5" PointX="25" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactocbvaria" Width="1.5" PointX="59.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactocbvariastipo" Width="1.5" PointX="58.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactocliente" Width="1.5" PointX="10.25" PointY="89" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactocobranza" Width="1.5" PointX="59.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactocontcuenta" Width="1.5" PointX="18.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactocreditore" Width="1.5" PointX="20.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactocreditored" Width="1.5" PointX="59.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactodatoslegale" Width="1.5" PointX="59.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoentrega" Width="1.5" PointX="10.25" PointY="94.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoflota" Width="1.5" PointX="54.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactogrupo" Width="1.5" PointX="56.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactogrupocliente" Width="1.5" PointX="58.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactolistapre" Width="1.5" PointX="60.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactomov" Width="1.5" PointX="60.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactonominacuenta" Width="1.5" PointX="13.25" PointY="68.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactooperacione" Width="1.5" PointX="60.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactopersonal" Width="1.5" PointX="22.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoprimario" Width="1.5" PointX="26.75" PointY="60.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoprinccliente" Width="1.5" PointX="60.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoprincprov" Width="1.5" PointX="60.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactoproveedor" Width="1.5" PointX="10.25" PointY="100" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactorelacion" Width="1.5" PointX="60.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactosegmentacion" Width="1.5" PointX="60.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactosubgcliente" Width="1.5" PointX="60.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactosubgrupo" Width="1.5" PointX="60.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contactosucursalc" Width="1.5" PointX="40.75" PointY="60.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contbcmovconcepto" Width="1.5" PointX="60.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contconsecutivo" Width="1.5" PointX="60.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contcuenta" Width="1.5" PointX="11" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contcuentadeducible" Width="1.5" PointX="60.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contcuentadiferenciatc" Width="1.5" PointX="60.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contcuentaiva" Width="1.5" PointX="60.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contd" Width="1.5" PointX="13.25" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contgenerar" Width="1.5" PointX="60.75" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contgenerard" Width="1.5" PointX="60.75" PointY="60.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contgenerarlog" Width="1.5" PointX="61.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contgenerarlogd" Width="1.5" PointX="61.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contmonitor" Width="1.5" PointX="61.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.contsimulador" Width="1.5" PointX="61.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.conttasaiva" Width="1.5" PointX="32.75" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.correo" Width="1.5" PointX="34.75" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.correoadjunto" Width="1.5" PointX="46.75" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.correod" Width="1.5" PointX="48.75" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.correodd" Width="1.5" PointX="50.75" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crm" Width="1.5" PointX="31" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmagente" Width="1.5" PointX="0.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmartgrupocond" Width="1.5" PointX="2.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmarticulocp" Width="1.5" PointX="62.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcampana" Width="1.5" PointX="4.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcampanacliente" Width="1.5" PointX="62.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcampanad" Width="1.5" PointX="62.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcampanapendiente" Width="1.5" PointX="62.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcampanaunidad" Width="1.5" PointX="20.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcobranza" Width="1.5" PointX="62.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcompetidor" Width="1.5" PointX="31" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmconsecutivo" Width="1.5" PointX="62.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcontacto" Width="1.5" PointX="62.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcontactoartcond" Width="1.5" PointX="62.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcontactocbvaria" Width="1.5" PointX="62.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcontactocliente" Width="1.5" PointX="62.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcontactocredito" Width="1.5" PointX="62.75" PointY="56.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcontactodatosleg" Width="1.5" PointX="62.75" PointY="60.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcontactoentrega" Width="1.5" PointX="63.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcontactolistapre" Width="1.5" PointX="63.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcontactosucursalc" Width="1.5" PointX="63.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizador" Width="1.5" PointX="26.75" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcompcar" Width="1.5" PointX="40.75" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcompcard" Width="1.5" PointX="52.75" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcompun" Width="1.5" PointX="63.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcompund" Width="1.5" PointX="54.75" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcondf" Width="1.5" PointX="56.75" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcosteo" Width="1.5" PointX="28.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcreditoext" Width="1.5" PointX="64.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcreditoextd" Width="1.5" PointX="64.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcreditofsl" Width="1.5" PointX="30.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcreditoint" Width="1.5" PointX="42.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorcreditointd" Width="1.5" PointX="64.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmcotizadorunidad" Width="1.5" PointX="44.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmd" Width="1.5" PointX="46.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmequipotrabajo" Width="1.5" PointX="64.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmev" Width="1.5" PointX="64.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmevento" Width="1.5" PointX="48.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmflota" Width="1.5" PointX="64.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmmanttosolref" Width="1.5" PointX="64.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmobjcategoria" Width="1.5" PointX="64.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmobjecione" Width="1.5" PointX="58.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmoperacione" Width="1.5" PointX="60.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmplantilla" Width="1.5" PointX="28.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmplantillacat" Width="1.5" PointX="64.75" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmplantillad" Width="1.5" PointX="62.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmplantilladact" Width="1.5" PointX="64.75" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmpresupcopiar" Width="1.5" PointX="0.75" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmpresupventa" Width="1.5" PointX="65.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmpresupventaa" Width="1.5" PointX="65.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmpresupventad" Width="1.5" PointX="65.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmpresupventao" Width="1.5" PointX="65.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmpresupventatp" Width="1.5" PointX="32.75" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmprinccliente" Width="1.5" PointX="34.75" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmprincprov" Width="1.5" PointX="2.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmpropuesta" Width="1.5" PointX="66.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmpropuestad" Width="1.5" PointX="4.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmsegmentacion" Width="1.5" PointX="66.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.crmunidadcontrato" Width="1.5" PointX="18.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ct" Width="1.5" PointX="20.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctaconsecutivo" Width="1.5" PointX="66.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctconsecutivo" Width="1.5" PointX="66.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctd" Width="1.5" PointX="66.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctentregarecepab" Width="1.5" PointX="66.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctentregarecp" Width="1.5" PointX="66.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctentregarecpentrega" Width="1.5" PointX="66.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctentregarecper" Width="1.5" PointX="66.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctentregarecpsalida" Width="1.5" PointX="66.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctformato" Width="1.5" PointX="66.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctperiodo" Width="1.5" PointX="66.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctpolizafianza" Width="1.5" PointX="66.75" PointY="56.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cttipocontrato" Width="1.5" PointX="66.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cttipocontratog" Width="1.5" PointX="66.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctunidadcontrato" Width="1.5" PointX="64.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ctunidadcthist" Width="1.5" PointX="66.75" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cuadrillagrupo" Width="1.5" PointX="67.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cubicajemov" Width="1.5" PointX="67.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cuentabanco" Width="1.5" PointX="68.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cuentacontgrupo" Width="1.5" PointX="67.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.departamento" Width="1.5" PointX="68.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.descuentoglobal" Width="1.5" PointX="68.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.devolucionarticulosugerir" Width="1.5" PointX="68.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.devolucionsugerircompra" Width="1.5" PointX="68.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.devolucionsugerirventa" Width="1.5" PointX="68.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.diafestivo" Width="1.5" PointX="32.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.dimension" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.dimensionpropiedad" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.diottipooperacion" Width="1.5" PointX="68.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.diottipotercero" Width="1.5" PointX="34.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarque" Width="1.5" PointX="68.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarqueclase" Width="1.5" PointX="68.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarqueconsecutivo" Width="1.5" PointX="68.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarqued" Width="1.5" PointX="48.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarqueestado" Width="1.5" PointX="50.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarqueguia" Width="1.5" PointX="68.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarqueincid" Width="1.5" PointX="52.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarqueincid1" Width="1.5" PointX="68.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarquemov" Width="1.5" PointX="68.75" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarquemovd" Width="1.5" PointX="58.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarqueseleccionar" Width="1.5" PointX="68.75" PointY="60.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.empresa" Width="1.5" PointX="60.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.empresaconfig" Width="1.5" PointX="68.75" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.empresaconfigembarquemov" Width="1.5" PointX="68.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.empresaconfiglista" Width="1.5" PointX="69.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.empresaconfigmodulo" Width="1.5" PointX="15.75" PointY="69.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.empresadatoslegale" Width="1.5" PointX="69.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.empresagrupo" Width="1.5" PointX="69.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.empresasucursal" Width="1.5" PointX="66.75" PointY="69.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.entregatipo" Width="1.5" PointX="68.75" PointY="69.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.etiquetadorformula" Width="1.5" PointX="0.75" PointY="70.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.evaluacionstockseguridad" Width="1.5" PointX="70.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.exceledoctaprev" Width="1.5" PointX="70.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.fc" Width="1.5" PointX="70.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.fcauxiliar" Width="1.5" PointX="70.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.fcconsecutivo" Width="1.5" PointX="70.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.fcd" Width="1.5" PointX="70.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.fcformapagocobro" Width="1.5" PointX="36.75" PointY="70.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.fcserie" Width="1.5" PointX="70.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.filtroarticulo" Width="1.5" PointX="38.75" PointY="70.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.filtromovimiento" Width="1.5" PointX="70.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.formapagocobro" Width="1.5" PointX="27.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.formapagocobrocondicion" Width="1.5" PointX="70.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.formapagocobroreferencia" Width="1.5" PointX="70.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.fpcdenom" Width="1.5" PointX="30" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.fraccionarancelaria" Width="1.5" PointX="70.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.generadoretiqueta" Width="1.5" PointX="70.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.grupoconf" Width="1.5" PointX="22.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.grupoconfd" Width="1.5" PointX="25" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.grupoconfig" Width="1.5" PointX="25" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.grupoconfiglista" Width="1.5" PointX="70.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.grupoconfigpvreporte" Width="1.5" PointX="70.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.horariotipo" Width="1.5" PointX="70.75" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.icconfig" Width="1.5" PointX="70.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.idioma" Width="1.5" PointX="71.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.impuestocuota" Width="1.5" PointX="71.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.impuestotipo" Width="1.5" PointX="12.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.incentivotipo" Width="1.5" PointX="71.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.incid" Width="1.5" PointX="32.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.incidconsecutivo" Width="1.5" PointX="40.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.incidd" Width="1.5" PointX="10.25" PointY="104.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.incidsugerir" Width="1.5" PointX="50.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.incidsugerird" Width="1.5" PointX="52.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.incidsugerirlog" Width="1.5" PointX="72.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.incidsugerirlogd" Width="1.5" PointX="72.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.incidsugerirproglog" Width="1.5" PointX="72.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.inv" Width="1.5" PointX="16.25" PointY="60.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invconsecutivo" Width="1.5" PointX="14.75" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invcont" Width="1.5" PointX="72.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invconteo" Width="1.5" PointX="72.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invconteomotivo" Width="1.5" PointX="72.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invconteonum" Width="1.5" PointX="72.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invd" Width="1.5" PointX="5.25" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invmatfaltante" Width="1.5" PointX="72.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invmatfaltantece" Width="1.5" PointX="72.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invmatfaltantepu" Width="1.5" PointX="72.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invmatfaltrastreo" Width="1.5" PointX="42.75" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invmodulotransfrastreo" Width="1.5" PointX="72.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invmovunir" Width="1.5" PointX="44.75" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invnivelsurtea" Width="1.5" PointX="46.75" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invnivelsurtel" Width="1.5" PointX="72.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invnivelsurtem" Width="1.5" PointX="72.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invnivelsurtesl" Width="1.5" PointX="72.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invnivelsurtido" Width="1.5" PointX="72.75" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invnivelsurtidod" Width="1.5" PointX="66.75" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplan" Width="1.5" PointX="68.75" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplanarticulootro" Width="1.5" PointX="73.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplanarticulouso" Width="1.5" PointX="16.75" PointY="73.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplanconsecutivo" Width="1.5" PointX="73.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invpland" Width="1.5" PointX="73.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplanfamilia" Width="1.5" PointX="0.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplanforecast" Width="1.5" PointX="74.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplanformula" Width="1.5" PointX="13.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplanformulafactor" Width="1.5" PointX="16" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplanlistacolaborativa" Width="1.5" PointX="74.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplanranking" Width="1.5" PointX="74.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplansugerido" Width="1.5" PointX="74.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplansugeridohist" Width="1.5" PointX="34.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplansugeridohistd" Width="1.5" PointX="36.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransf" Width="1.5" PointX="5.25" PointY="78.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransfao" Width="1.5" PointX="38.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransfaod" Width="1.5" PointX="74.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransfaoe" Width="1.5" PointX="74.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransfaor" Width="1.5" PointX="74.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransfconsecutivo" Width="1.5" PointX="74.75" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransfmat" Width="1.5" PointX="5.25" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransformacion" Width="1.5" PointX="74.75" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransformaciond" Width="1.5" PointX="74.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransformacionmat" Width="1.5" PointX="74.75" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invtransfserie" Width="1.5" PointX="74.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.jamcocontactoprefijo" Width="1.5" PointX="74.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.linkcatalogo" Width="1.5" PointX="75.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.linkmov" Width="1.5" PointX="12.75" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.listacosto" Width="1.5" PointX="24.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.listacostosd" Width="1.5" PointX="27" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.listaorden" Width="1.5" PointX="75.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.listaprecio" Width="1.5" PointX="24.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.listapreciosd" Width="1.5" PointX="27" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.listapreciosr2r" Width="1.5" PointX="75.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.listapreciosr2rd" Width="1.5" PointX="40.75" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.listapreciossd" Width="1.5" PointX="42.75" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.listapreciossdd" Width="1.5" PointX="44.75" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.listapreciossdda" Width="1.5" PointX="46.75" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.mantto" Width="1.5" PointX="10.25" PointY="109.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoabuso" Width="1.5" PointX="48.75" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoabusostu" Width="1.5" PointX="62.75" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoano" Width="1.5" PointX="76.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocampana" Width="1.5" PointX="76.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocapacidad" Width="1.5" PointX="76.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocargoextra" Width="1.5" PointX="76.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocarroceria" Width="1.5" PointX="76.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocategoria" Width="1.5" PointX="76.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocategoriainv" Width="1.5" PointX="76.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocategoria1" Width="1.5" PointX="76.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocattarea" Width="1.5" PointX="76.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocattareascomponente" Width="1.5" PointX="76.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocattareasensamble" Width="1.5" PointX="76.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocattareassistema" Width="1.5" PointX="76.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocattareastu" Width="1.5" PointX="76.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocattareastuea" Width="1.5" PointX="76.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocolor" Width="1.5" PointX="50.75" PointY="76.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocomodatoconfig" Width="1.5" PointX="52.75" PointY="76.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoconsecutivo" Width="1.5" PointX="76.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttod" Width="1.5" PointX="13.25" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttodabuso" Width="1.5" PointX="76.75" PointY="56.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttodservicio" Width="1.5" PointX="76.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttodtareafhist" Width="1.5" PointX="76.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoequipo" Width="1.5" PointX="20" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoequipoaliado" Width="1.5" PointX="76.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoequiposerviciohist" Width="1.5" PointX="76.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoequipotareahist" Width="1.5" PointX="76.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoequipotipo" Width="1.5" PointX="76.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoequipotrabajo" Width="1.5" PointX="76.75" PointY="76.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoev" Width="1.5" PointX="77.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoevento" Width="1.5" PointX="0.75" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttogrupo" Width="1.5" PointX="77.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoinvunidad" Width="1.5" PointX="77.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttokpi" Width="1.5" PointX="18.75" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttomarca" Width="1.5" PointX="17.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttomev" Width="1.5" PointX="77.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttomodelo" Width="1.5" PointX="20.75" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttomodelorampa" Width="1.5" PointX="78.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttomodelothermo" Width="1.5" PointX="78.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttomotivo" Width="1.5" PointX="78.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttomovequipo" Width="1.5" PointX="22.25" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttomovporctot" Width="1.5" PointX="78.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttopasoprod" Width="1.5" PointX="78.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoplan" Width="1.5" PointX="78.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoplanclequipo" Width="1.5" PointX="78.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoplancliente" Width="1.5" PointX="32.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoplanconsecutivo" Width="1.5" PointX="78.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttopland" Width="1.5" PointX="78.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoplanservicio" Width="1.5" PointX="78.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoquickcheck" Width="1.5" PointX="42.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttorama" Width="1.5" PointX="78.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttorecepunidad" Width="1.5" PointX="44.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoservicio" Width="1.5" PointX="78.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoservicioea" Width="1.5" PointX="46.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttosolref" Width="1.5" PointX="5.25" PointY="92" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttosolrefaut" Width="1.5" PointX="78.75" PointY="56.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttosolrefautsnc" Width="1.5" PointX="62.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttosotref" Width="1.5" PointX="78.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttosotrefcajag" Width="1.5" PointX="64.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotareafechaconcluir" Width="1.5" PointX="70.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotareagrale" Width="1.5" PointX="78.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotareagralesd" Width="1.5" PointX="72.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotecnologia" Width="1.5" PointX="17.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotipo" Width="1.5" PointX="20" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotipocarroceria" Width="1.5" PointX="78.75" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotipod" Width="1.5" PointX="22.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotipodtarea" Width="1.5" PointX="24.5" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotipodtareaart" Width="1.5" PointX="26.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotipogarantia" Width="1.5" PointX="79.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotipoveh" Width="1.5" PointX="79.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.medio" Width="1.5" PointX="18.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.mensaje" Width="1.5" PointX="14.75" PointY="79.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.mensajemodulo" Width="1.5" PointX="79.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.menusistema" Width="1.5" PointX="48.75" PointY="79.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.mesa" Width="1.5" PointX="74.75" PointY="79.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.metodopago" Width="1.5" PointX="76.75" PointY="79.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.mkey" Width="1.5" PointX="78.75" PointY="79.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.modelo" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.modeloarticulo" Width="1.5" PointX="5.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.modelocolumna" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.modelorenglon" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.modulo" Width="1.5" PointX="80.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.moneda" Width="1.5" PointX="80.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.monedahist" Width="1.5" PointX="80.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.motivo" Width="1.5" PointX="80.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movautorizar" Width="1.5" PointX="80.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movautorizarusuario" Width="1.5" PointX="80.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movautorizarusuarioenc" Width="1.5" PointX="80.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movautorizarusuariopart" Width="1.5" PointX="80.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movclase" Width="1.5" PointX="50.75" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movdavance" Width="1.5" PointX="52.75" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movdetmodificar" Width="1.5" PointX="80.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movescaneo" Width="1.5" PointX="58.75" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movescaneod" Width="1.5" PointX="80.75" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movescaneoserielote" Width="1.5" PointX="80.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movimientocore" Width="1.5" PointX="80.75" PointY="69.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movlista" Width="1.5" PointX="80.75" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movlistaavance" Width="1.5" PointX="80.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movlog" Width="1.5" PointX="0.75" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movrastreo" Width="1.5" PointX="81.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movreporte" Width="1.5" PointX="81.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movreservaauto" Width="1.5" PointX="16.75" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.m" Width="1.5" PointX="32.75" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.msconsecutivo" Width="1.5" PointX="66.75" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.msevento" Width="1.5" PointX="68.75" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nacionalidad" Width="1.5" PointX="81.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nivelacademico" Width="1.5" PointX="70.75" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nivelintere" Width="1.5" PointX="80.75" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nomina" Width="1.5" PointX="82.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaacumulado" Width="1.5" PointX="82.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaaplica" Width="1.5" PointX="82.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominabccfdi" Width="1.5" PointX="82.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacalc" Width="1.5" PointX="22.75" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacalcd" Width="1.5" PointX="11" PointY="126.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacalcddepartamento" Width="1.5" PointX="24.75" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacalcdie" Width="1.5" PointX="82.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdiconcepto" Width="1.5" PointX="13.25" PointY="127.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdicontacto" Width="1.5" PointX="82.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdideduccion" Width="1.5" PointX="38.75" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdideducciond" Width="1.5" PointX="40.75" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdihorasextra" Width="1.5" PointX="82.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdiincapacidad" Width="1.5" PointX="42.75" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdimov" Width="1.5" PointX="82.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdiotrospagosd" Width="1.5" PointX="44.75" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdipercepcion" Width="1.5" PointX="82.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdipercepciond" Width="1.5" PointX="82.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdiprocesar" Width="1.5" PointX="82.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaconsecutivo" Width="1.5" PointX="82.75" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacont" Width="1.5" PointX="82.75" PointY="60.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacontacto" Width="1.5" PointX="10.25" PointY="117.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacontratotipo" Width="1.5" PointX="82.75" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacontratotiposat" Width="1.5" PointX="82.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominad" Width="1.5" PointX="10.25" PointY="122.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaexgenerabaja" Width="1.5" PointX="82.75" PointY="69.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominafuncion" Width="1.5" PointX="82.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominahorasextra" Width="1.5" PointX="72.75" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominajornada" Width="1.5" PointX="12.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominajornadad" Width="1.5" PointX="15" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominajornadafecha" Width="1.5" PointX="15" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominajornadasat" Width="1.5" PointX="82.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaorigenrecurso" Width="1.5" PointX="74.75" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaperiodicidadpago" Width="1.5" PointX="82.75" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaperiodo" Width="1.5" PointX="82.75" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaperiodod" Width="1.5" PointX="2.75" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaprevio" Width="1.5" PointX="4.75" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominariesgopuesto" Width="1.5" PointX="6.75" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominatablaimpuesto" Width="1.5" PointX="4.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominatablaimpuestod" Width="1.5" PointX="7" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominatablatope" Width="1.5" PointX="23.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominatablatoped" Width="1.5" PointX="26" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominatipo" Width="1.5" PointX="83.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominatipohora" Width="1.5" PointX="83.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominatipoincapacidad" Width="1.5" PointX="58.75" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominatipootropago" Width="1.5" PointX="76.75" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaturno" Width="1.5" PointX="78.75" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaturnohist" Width="1.5" PointX="84.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominauma" Width="1.5" PointX="84.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominaumahist" Width="1.5" PointX="84.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominavariablegrupo" Width="1.5" PointX="84.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominavariablelista" Width="1.5" PointX="12.75" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominavariablesreporte" Width="1.5" PointX="14.75" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominavariablesreportesd" Width="1.5" PointX="16.75" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominavariablevalor" Width="1.5" PointX="84.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominazonaeconomica" Width="1.5" PointX="84.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.objetivocompra" Width="1.5" PointX="84.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.objetivocompraanc" Width="1.5" PointX="84.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.objetivocompraconsecutivo" Width="1.5" PointX="84.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.objetivocomprad" Width="1.5" PointX="34.75" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.objetivocomprafamilia" Width="1.5" PointX="84.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.objetivocomprav" Width="1.5" PointX="84.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.objetivocompravd" Width="1.5" PointX="84.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ordenflujorondin" Width="1.5" PointX="84.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pai" Width="1.5" PointX="23.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.paisestado" Width="1.5" PointX="26" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.parametrossdk" Width="1.5" PointX="84.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pc" Width="1.5" PointX="84.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pcconsecutivo" Width="1.5" PointX="84.75" PointY="60.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pcd" Width="1.5" PointX="5.25" PointY="99.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pcredondeo" Width="1.5" PointX="84.75" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pctipocambio" Width="1.5" PointX="64.75" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pedimento" Width="1.5" PointX="2.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pedimentoclave" Width="1.5" PointX="84.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pedimentoclaveregiman" Width="1.5" PointX="66.75" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pedimentod" Width="1.5" PointX="5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pedimentoincoterm" Width="1.5" PointX="68.75" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pedimentorectificacion" Width="1.5" PointX="84.75" PointY="69.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pedimentoregiman" Width="1.5" PointX="84.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pedimentoremesa" Width="1.5" PointX="5" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pedimentoseleccion" Width="1.5" PointX="84.75" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.permisotipo" Width="1.5" PointX="84.75" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.personalasiste" Width="1.5" PointX="80.75" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.personalasisteretardo" Width="1.5" PointX="84.75" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.personalasistetipo" Width="1.5" PointX="85.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.personalcategoria" Width="1.5" PointX="85.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.personalgrupo" Width="1.5" PointX="85.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.personalreloj" Width="1.5" PointX="22.75" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.plandevcompra" Width="1.5" PointX="24.75" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.plandevcomprac" Width="1.5" PointX="36.75" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.plandevcomprad" Width="1.5" PointX="70.75" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.plandevcompraranking" Width="1.5" PointX="72.75" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.procesararchivo" Width="1.5" PointX="82.75" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prod" Width="1.5" PointX="16.25" PointY="93.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodarticulooperacion" Width="1.5" PointX="13.25" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodavanceentrada" Width="1.5" PointX="84.75" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodcentro" Width="1.5" PointX="11" PointY="39.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodcentrotipo" Width="1.5" PointX="86.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodconsecutivo" Width="1.5" PointX="0.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodcont" Width="1.5" PointX="86.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodd" Width="1.5" PointX="5.25" PointY="106.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodestacion" Width="1.5" PointX="6.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodlote" Width="1.5" PointX="86.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodmaterialmov" Width="1.5" PointX="86.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodoperacion" Width="1.5" PointX="11" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodoperaciongrupo" Width="1.5" PointX="86.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodoperacionmov" Width="1.5" PointX="86.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodretrocesoconsumo" Width="1.5" PointX="86.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodruta" Width="1.5" PointX="11" PointY="134.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodrutad" Width="1.5" PointX="13.25" PointY="40.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodrutamov" Width="1.5" PointX="86.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.prodtransferenciamov" Width="1.5" PointX="86.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.progincid" Width="1.5" PointX="86.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.progincidconsecutivo" Width="1.5" PointX="38.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.proveedorgrupo" Width="1.5" PointX="40.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.proyecto" Width="1.5" PointX="86.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.puesto" Width="1.5" PointX="42.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pv" Width="1.5" PointX="44.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvcaja" Width="1.5" PointX="86.75" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvd" Width="1.5" PointX="86.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvformapagocobro" Width="1.5" PointX="86.75" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvfpcdenom" Width="1.5" PointX="58.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvreporte" Width="1.5" PointX="60.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvreportefiltro" Width="1.5" PointX="86.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvsincrodato" Width="1.5" PointX="86.75" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvsincroid" Width="1.5" PointX="86.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvsincrolog" Width="1.5" PointX="86.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvsincrologd" Width="1.5" PointX="74.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvsincrorecibo" Width="1.5" PointX="86.75" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvterminal" Width="1.5" PointX="86.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pvventarefacturar" Width="1.5" PointX="86.75" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.quickcheckevalactividad" Width="1.5" PointX="86.75" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.quickcheckevalactividadd" Width="1.5" PointX="87.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.rankingclaseanticipo" Width="1.5" PointX="87.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.regimenfiscal" Width="1.5" PointX="14.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.regimentipo" Width="1.5" PointX="16.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.relacioncfditipo" Width="1.5" PointX="18.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.relojchecador" Width="1.5" PointX="46.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.relojterminal" Width="1.5" PointX="48.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.renivelinv" Width="1.5" PointX="62.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.renivelinvd" Width="1.5" PointX="64.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.renivelinvrankalmacend" Width="1.5" PointX="66.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.renivelinvrankalmaceno" Width="1.5" PointX="76.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.renivinvconsecutivo" Width="1.5" PointX="78.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.repcontbalanzagridcuenta" Width="1.5" PointX="88.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.retenciontipo" Width="1.5" PointX="2.75" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.rfcanexo" Width="1.5" PointX="88.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ruta" Width="1.5" PointX="18.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.rutad" Width="1.5" PointX="21" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.saldo" Width="1.5" PointX="88.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.saldom" Width="1.5" PointX="88.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.saldou" Width="1.5" PointX="20.75" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.serielote" Width="1.5" PointX="88.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.serieloteauxiliar" Width="1.5" PointX="88.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.serielotemov" Width="1.5" PointX="88.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.serielotepedimento" Width="1.5" PointX="88.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.submedio" Width="1.5" PointX="21" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.sucursal" Width="1.5" PointX="88.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.sucursalgrupo" Width="1.5" PointX="88.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.supercache" Width="1.5" PointX="50.75" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.tbidioma" Width="1.5" PointX="52.75" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.temACinv" Width="1.5" PointX="88.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ubicacion" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ubicacioncalendario" Width="1.5" PointX="15" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ubicaciongrupo" Width="1.5" PointX="88.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ubicacionmov" Width="1.5" PointX="15" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.unidad" Width="1.5" PointX="3" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.unidadclavesat" Width="1.5" PointX="88.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.usocomprobante" Width="1.5" PointX="88.75" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.usoesporadico" Width="1.5" PointX="88.75" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.usuario" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.usuariocaja" Width="1.5" PointX="68.75" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.usuarioconfig" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.usuarioconfiglista" Width="1.5" PointX="70.75" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.usuarioempresa" Width="1.5" PointX="88.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.usuariosucursal" Width="1.5" PointX="88.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilcontrolflotaa" Width="1.5" PointX="88.75" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilcontrolflotamov" Width="1.5" PointX="80.75" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilcontrolflotap" Width="1.5" PointX="88.75" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilcontrolflotav" Width="1.5" PointX="82.75" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilfacturacionct" Width="1.5" PointX="88.75" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilfacturacionctc" Width="1.5" PointX="89.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilfacturacionctdaux" Width="1.5" PointX="36.75" PointY="89.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilfacturacioncttc" Width="1.5" PointX="38.75" PointY="89.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilfacturacioncttu" Width="1.5" PointX="40.75" PointY="89.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilmantto" Width="1.5" PointX="84.75" PointY="89.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilmanttod" Width="1.5" PointX="86.75" PointY="89.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilmanttokpic" Width="1.5" PointX="89.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilmanttor" Width="1.5" PointX="88.75" PointY="89.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilmanttoru" Width="1.5" PointX="90.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilmanttosolref" Width="1.5" PointX="12.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilmanttosu" Width="1.5" PointX="90.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilmanttotu" Width="1.5" PointX="90.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilmanttou" Width="1.5" PointX="90.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilplanmanttoct" Width="1.5" PointX="90.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilplanmanttocta" Width="1.5" PointX="90.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilplanmanttoctc" Width="1.5" PointX="90.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilplanmanttocte" Width="1.5" PointX="32.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilrc" Width="1.5" PointX="90.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilrcmov" Width="1.5" PointX="90.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilrcmova" Width="1.5" PointX="90.75" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilventaconsigna" Width="1.5" PointX="46.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.vehiculo" Width="1.5" PointX="90.75" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.venta" Width="1.5" PointX="54.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventabcaplica" Width="1.5" PointX="14.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventabcpendienteaplica" Width="1.5" PointX="16.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventaconcluirnotaseleccion" Width="1.5" PointX="90.75" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventaconsecutivo" Width="1.5" PointX="56.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventacont" Width="1.5" PointX="90.75" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventacto" Width="1.5" PointX="58.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventad" Width="1.5" PointX="16.25" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventaddescuento" Width="1.5" PointX="90.75" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventadpretotal" Width="1.5" PointX="90.75" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventaformapagocobro" Width="1.5" PointX="72.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventafpcdenom" Width="1.5" PointX="74.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventaimporte" Width="1.5" PointX="76.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventamatfaltante" Width="1.5" PointX="90.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventamatfaltantece" Width="1.5" PointX="90.75" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventamatfaltantepu" Width="1.5" PointX="90.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventanotacredobjetivo" Width="1.5" PointX="90.75" PointY="89.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventanotacredpromo" Width="1.5" PointX="0.75" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventapretotal" Width="1.5" PointX="22.75" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventarefacturado" Width="1.5" PointX="91.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventarefacturar" Width="1.5" PointX="24.75" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventasustcomp" Width="1.5" PointX="48.75" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.vermovrastreod" Width="1.5" PointX="50.75" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.vermovrastreoo" Width="1.5" PointX="66.75" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.versionaio" Width="1.5" PointX="91.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.webchat" Width="1.5" PointX="68.75" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.webTabla" Width="1.5" PointX="92.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.wf" Width="1.5" PointX="92.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.wfd" Width="1.5" PointX="92.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.wfemail" Width="1.5" PointX="92.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.wfusuario" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.xmlcfdi" Width="1.5" PointX="18.75" PointY="92.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.xmlcfdimov" Width="1.5" PointX="92.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.xmlcfdisugerir" Width="1.5" PointX="92.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.zona" Width="1.5" PointX="92.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.zonaimpuesto" Width="1.5" PointX="92.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulorelacionadovta" Width="1.5" PointX="92.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.calidadcuadrillaespecial" Width="1.5" PointX="92.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgdcentrocostoart" Width="1.5" PointX="92.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsordenpendiente" Width="1.5" PointX="38.75" PointY="92.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.log" Width="1.5" PointX="40.75" PointY="92.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttocuadrillaesptarea" Width="1.5" PointX="92.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoequiposervr2r" Width="1.5" PointX="42.75" PointY="92.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoequiposervr2ra" Width="1.5" PointX="92.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoequiposervr2robj" Width="1.5" PointX="92.75" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movvencido" Width="1.5" PointX="92.75" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.test" Width="1.5" PointX="92.75" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilcontrolflota" Width="1.5" PointX="92.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilfacturacionctd" Width="1.5" PointX="92.75" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.utilmanttokpi" Width="1.5" PointX="78.75" PointY="92.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventamatfaltrastreo" Width="1.5" PointX="92.75" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.afartseriev" Width="1.5" PointX="80.75" PointY="92.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.almacenubicacionesartft" Width="1.5" PointX="92.75" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.artcantidadreserva" Width="1.5" PointX="92.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulocostoempresa" Width="1.5" PointX="92.75" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulodisponible" Width="1.5" PointX="60.75" PointY="93.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articuloexistencia" Width="1.5" PointX="62.75" PointY="93.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articuloexistenciaunidad" Width="1.5" PointX="93.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articulolistaprecio" Width="1.5" PointX="74.75" PointY="93.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articuloresuman" Width="1.5" PointX="86.75" PointY="93.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.articuloresumenunidad" Width="1.5" PointX="94.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.artordenespendiente" Width="1.5" PointX="0.75" PointY="94.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bcaplica" Width="1.5" PointX="94.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.bcsaldo" Width="1.5" PointX="94.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolarticulolistaprecio" Width="1.5" PointX="94.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolcostocarroceriaview" Width="1.5" PointX="94.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.camsolpresupventacli" Width="1.5" PointX="94.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cfdiuuidasignado" Width="1.5" PointX="24.75" PointY="94.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgaplica" Width="1.5" PointX="94.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cgtransferir" Width="1.5" PointX="94.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.chequesbc" Width="1.5" PointX="32.75" PointY="94.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.cmsaplica" Width="1.5" PointX="94.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.corerefac" Width="1.5" PointX="94.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.corerefaccion" Width="1.5" PointX="94.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.devolucioncore" Width="1.5" PointX="94.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.devolucionrefaccion" Width="1.5" PointX="94.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarqueasignado" Width="1.5" PointX="94.75" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarquelista" Width="1.5" PointX="94.75" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.embarquependiente" Width="1.5" PointX="94.75" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.entregarefaccion" Width="1.5" PointX="68.75" PointY="94.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invaplica" Width="1.5" PointX="70.75" PointY="94.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.invplanaplica" Width="1.5" PointX="94.75" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoaplica" Width="1.5" PointX="94.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttodtareacod" Width="1.5" PointX="94.75" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttomodeloview" Width="1.5" PointX="94.75" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttomsrcotiz" Width="1.5" PointX="94.75" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoreftarea" Width="1.5" PointX="94.75" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttoserviciosunidad" Width="1.5" PointX="88.75" PointY="94.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttosotrefcg" Width="1.5" PointX="94.75" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttosotrefinv" Width="1.5" PointX="40.75" PointY="95.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.manttotiposoltarea" Width="1.5" PointX="42.75" PointY="95.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.movautorizarusuariopartar" Width="1.5" PointX="44.75" PointY="95.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.nominacfdifiltro" Width="1.5" PointX="46.75" PointY="95.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.pclistacalcular" Width="1.5" PointX="95.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.reciborefaccion" Width="1.5" PointX="48.75" PointY="95.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventaaplica" Width="1.5" PointX="50.75" PointY="95.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventaneta" Width="1.5" PointX="64.75" PointY="95.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.ventareservacioncierre" Width="1.5" PointX="90.75" PointY="95.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.xmlcfdibc" Width="1.5" PointX="96.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.xmlcfdicg" Width="1.5" PointX="96.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.xmlcfdicont" Width="1.5" PointX="96.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.xmlcfdigasto" Width="1.5" PointX="12.75" PointY="96.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ERPModel.xmlcfdiventa" Width="1.5" PointX="96.75" PointY="16.75" IsExpanded="true" />
+        <AssociationConnector Association="ERPModel.fkAFArticuloCarga" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkAFDArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkInvAlmacen" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkInvAlmacenDestino" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkProdAlmacen" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkVentaDAlmacen" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkAPDContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkArticuloComandaExtra" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkArticuloImpuestoTipo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkArticuloKit" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkArticuloKitComp" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkArticuloUnidadA" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkArtMaterial" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCGDArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCompiteOtrosArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkInvDArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkInvTransf" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkInvTransfMat" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkMantoDArticuloSE" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkManttoSolRef" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkPCDArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkProdArtOperacionArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkProdDArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkVentaDArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkArticuloKitD" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkArticuloUnidadU" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkbancosucursal" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCalidadRequisitoNorm" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCalidadRequisitoD" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCalidadRequisitoDTarea" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCalidadRequisitoDTareaEval" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCalidadRequisitoDTareaU" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCGContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCGDContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCGGastoContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.Competidor1" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCompiteHonorariosContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCompiteHonorariosDContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCompiteOtrosContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCompiteViaticosContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkCompiteViaticosDContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkConceptoMov" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkContactoNominaCuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkctocliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkctoenvio" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkctoproveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkIncidDContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkMantoDAgente" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkMantoProv" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkNominaContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkNominaDContacto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkContactoBeneficiario" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkContactoNominaContCuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkContactoNominaID" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkContDCuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.Plantilla" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkDimension" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkDimensionColumna" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkDimensionRenglon" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkModeloDimensionColumna" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkModeloDimensionRenglon" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkFPCDenom" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkGrupoConfD" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkGrupoConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.invplanformulafactor_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkListaCostosD" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkListaPreciosD" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkMantoMovEquipo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkManttoEquipoMarca" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkManttoTipoTec" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkManttoTipoD" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkManttoTipoDTarea" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkManttoTipoDTareaArt" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.Medio1" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkModeloArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkNominaCalcD" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.nominajornadad_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.nominajornadafecha_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkNominaTablaImpuesto" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkNominaTablaTope" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkPais" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkPedimentoD" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkPedimentoRemesa" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkProdRuta" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkProdArtOperacionCentro" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkProdArtOperacionOperacion" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkProdRutaCentro" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkProdRutaD" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkRutaD" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkUbicacionCalendario" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkUbicacionMov" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkUsuarioConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="ERPModel.fkWFUsuario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
